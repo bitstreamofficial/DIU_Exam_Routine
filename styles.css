@@ -74,7 +74,8 @@ select:focus, input[type="text"]:focus {
 .routine-container {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 50px;
+    padding: 20px 0;
 }
 
 .date-group {
@@ -83,6 +84,7 @@ select:focus, input[type="text"]:focus {
     box-shadow: 0 6px 20px rgba(0,0,0,0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
+    margin-bottom: 30px;
 }
 
 .date-group:hover {
@@ -99,9 +101,9 @@ select:focus, input[type="text"]:focus {
 }
 
 .exams-grid {
-    padding: 20px;
+    padding: 25px;
     display: grid;
-    gap: 15px;
+    gap: 25px;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
@@ -229,6 +231,33 @@ select:focus, input[type="text"]:focus {
 .no-results p {
     font-size: 1.1rem;
     color: #7f8c8d;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+footer .subtitle {
+    color: white;
+    opacity: 0.8;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #f39c12;
+    text-decoration: underline;
 }
 
 /* Responsive Design */

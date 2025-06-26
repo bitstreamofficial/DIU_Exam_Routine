@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Load exam data from JSON file
 async function loadExamData() {
     try {
-        const response = await fetch('exam_routine.json');
+        const response = await fetch('media/exam_routine.json');
         examData = await response.json();
         filteredData = [...examData];
         
