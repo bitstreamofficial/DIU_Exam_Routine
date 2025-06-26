@@ -1,7 +1,7 @@
 [
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "SH",
     "Section": "63 A",
@@ -9,11 +9,12 @@
     "Seat(s)": "18",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "SH",
     "Section": "63 A",
@@ -21,11 +22,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "SH",
     "Section": "63 A",
@@ -33,11 +35,12 @@
     "Seat(s)": "9",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "MIS",
     "Section": "63 B",
@@ -45,11 +48,12 @@
     "Seat(s)": "15",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "MIS",
     "Section": "63 B",
@@ -57,11 +61,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "MIS",
     "Section": "63 B",
@@ -69,11 +74,12 @@
     "Seat(s)": "12",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "MIS",
     "Section": "63 C",
@@ -81,11 +87,12 @@
     "Seat(s)": "12",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "MIS",
     "Section": "63 C",
@@ -93,11 +100,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "MIS",
     "Section": "63 C",
@@ -105,11 +113,12 @@
     "Seat(s)": "15",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "MUH",
     "Section": "63 D",
@@ -117,11 +126,12 @@
     "Seat(s)": "9",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "MUH",
     "Section": "63 D",
@@ -129,11 +139,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "MUH",
     "Section": "63 D",
@@ -141,11 +152,12 @@
     "Seat(s)": "18",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "RA",
     "Section": "63 E",
@@ -153,11 +165,12 @@
     "Seat(s)": "6",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "RA",
     "Section": "63 E",
@@ -165,11 +178,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "RA",
     "Section": "63 E",
@@ -177,11 +191,12 @@
     "Seat(s)": "21",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "TAS",
     "Section": "63 F",
@@ -189,11 +204,12 @@
     "Seat(s)": "3",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "TAS",
     "Section": "63 F",
@@ -201,11 +217,12 @@
     "Seat(s)": "22",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "TAS",
     "Section": "63 F",
@@ -213,11 +230,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "TAS",
     "Section": "63 F",
@@ -225,11 +243,12 @@
     "Seat(s)": "2",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "MAH",
     "Section": "63 G",
@@ -237,11 +256,12 @@
     "Seat(s)": "22",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "MAH",
     "Section": "63 G",
@@ -249,11 +269,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "MAH",
     "Section": "63 G",
@@ -261,11 +282,12 @@
     "Seat(s)": "5",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "MAH",
     "Section": "63 H",
@@ -273,11 +295,12 @@
     "Seat(s)": "19",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "MAH",
     "Section": "63 H",
@@ -285,11 +308,12 @@
     "Seat(s)": "20",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "MAH",
     "Section": "63 H",
@@ -297,11 +321,12 @@
     "Seat(s)": "11",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "RA",
     "Section": "63 I",
@@ -309,11 +334,12 @@
     "Seat(s)": "13",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "RA",
     "Section": "63 I",
@@ -321,11 +347,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "RA",
     "Section": "63 I",
@@ -333,11 +360,12 @@
     "Seat(s)": "13",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "SJM",
     "Section": "63 J",
@@ -345,11 +373,12 @@
     "Seat(s)": "18",
     "Total": "52",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "SJM",
     "Section": "63 J",
@@ -357,11 +386,12 @@
     "Seat(s)": "24",
     "Total": "52",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "SJM",
     "Section": "63 J",
@@ -369,11 +399,12 @@
     "Seat(s)": "10",
     "Total": "52",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "SJM",
     "Section": "63 K",
@@ -381,11 +412,12 @@
     "Seat(s)": "14",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "SJM",
     "Section": "63 K",
@@ -393,11 +425,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "SJM",
     "Section": "63 K",
@@ -405,11 +438,12 @@
     "Seat(s)": "13",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "TAA",
     "Section": "63 L",
@@ -417,11 +451,12 @@
     "Seat(s)": "11",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "TAA",
     "Section": "63 L",
@@ -429,11 +464,12 @@
     "Seat(s)": "26",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "TAA",
     "Section": "63 L",
@@ -441,11 +477,12 @@
     "Seat(s)": "14",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "TAA",
     "Section": "63 M",
@@ -453,11 +490,12 @@
     "Seat(s)": "10",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "TAA",
     "Section": "63 M",
@@ -465,11 +503,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "TAA",
     "Section": "63 M",
@@ -477,11 +516,12 @@
     "Seat(s)": "17",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "PPC",
     "Section": "63 N",
@@ -489,11 +529,12 @@
     "Seat(s)": "7",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "PPC",
     "Section": "63 N",
@@ -501,11 +542,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "PPC",
     "Section": "63 N",
@@ -513,11 +555,12 @@
     "Seat(s)": "20",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "PPC",
     "Section": "63 O",
@@ -525,11 +568,12 @@
     "Seat(s)": "4",
     "Total": "9",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE333",
+    "Department": "CSE",
+    "Course ID": "CSE333",
     "Course Title": "Software Engineering",
     "Tech. Int.": "PPC",
     "Section": "63 O",
@@ -537,11 +581,12 @@
     "Seat(s)": "5",
     "Total": "9",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "BCD",
     "Section": "67 A",
@@ -549,11 +594,12 @@
     "Seat(s)": "27",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "BCD",
     "Section": "67 A",
@@ -561,11 +607,12 @@
     "Seat(s)": "23",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "BCD",
     "Section": "67 B",
@@ -573,11 +620,12 @@
     "Seat(s)": "1",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "BCD",
     "Section": "67 B",
@@ -585,11 +633,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "BCD",
     "Section": "67 B",
@@ -597,11 +646,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "BCD",
     "Section": "67 B",
@@ -609,11 +659,12 @@
     "Seat(s)": "2",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NRM",
     "Section": "67 C",
@@ -621,11 +672,12 @@
     "Seat(s)": "22",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NRM",
     "Section": "67 C",
@@ -633,11 +685,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NRM",
     "Section": "67 C",
@@ -645,11 +698,12 @@
     "Seat(s)": "5",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NRM",
     "Section": "67 D",
@@ -657,11 +711,12 @@
     "Seat(s)": "25",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NRM",
     "Section": "67 D",
@@ -669,11 +724,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NRM",
     "Section": "67 D",
@@ -681,11 +737,12 @@
     "Seat(s)": "2",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NDS",
     "Section": "67 E",
@@ -693,11 +750,12 @@
     "Seat(s)": "22",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NDS",
     "Section": "67 E",
@@ -705,11 +763,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NDS",
     "Section": "67 E",
@@ -717,11 +776,12 @@
     "Seat(s)": "5",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NDS",
     "Section": "67 F",
@@ -729,11 +789,12 @@
     "Seat(s)": "19",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NDS",
     "Section": "67 F",
@@ -741,11 +802,12 @@
     "Seat(s)": "32",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "BCD",
     "Section": "67 G",
@@ -753,11 +815,12 @@
     "Seat(s)": "1",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "BCD",
     "Section": "67 G",
@@ -765,11 +828,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "BCD",
     "Section": "67 G",
@@ -777,11 +841,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "BCD",
     "Section": "67 G",
@@ -789,11 +854,12 @@
     "Seat(s)": "1",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NRM",
     "Section": "67 H",
@@ -801,11 +867,12 @@
     "Seat(s)": "23",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NRM",
     "Section": "67 H",
@@ -813,11 +880,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NRM",
     "Section": "67 H",
@@ -825,11 +893,12 @@
     "Seat(s)": "3",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NRM",
     "Section": "67 I",
@@ -837,11 +906,12 @@
     "Seat(s)": "25",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NRM",
     "Section": "67 I",
@@ -849,11 +919,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NRM",
     "Section": "67 I",
@@ -861,11 +932,12 @@
     "Seat(s)": "2",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NDS",
     "Section": "67 J",
@@ -873,11 +945,12 @@
     "Seat(s)": "22",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NDS",
     "Section": "67 J",
@@ -885,11 +958,12 @@
     "Seat(s)": "29",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NRM",
     "Section": "67 K",
@@ -897,11 +971,12 @@
     "Seat(s)": "18",
     "Total": "48",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NRM",
     "Section": "67 K",
@@ -909,11 +984,12 @@
     "Seat(s)": "24",
     "Total": "48",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NRM",
     "Section": "67 K",
@@ -921,11 +997,12 @@
     "Seat(s)": "6",
     "Total": "48",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NDS",
     "Section": "67 L",
@@ -933,11 +1010,12 @@
     "Seat(s)": "18",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NDS",
     "Section": "67 L",
@@ -945,11 +1023,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NDS",
     "Section": "67 L",
@@ -957,11 +1036,12 @@
     "Seat(s)": "9",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "MNM",
     "Section": "67 M",
@@ -969,11 +1049,12 @@
     "Seat(s)": "15",
     "Total": "48",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "MNM",
     "Section": "67 M",
@@ -981,11 +1062,12 @@
     "Seat(s)": "33",
     "Total": "48",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NDS",
     "Section": "67 N",
@@ -993,11 +1075,12 @@
     "Seat(s)": "6",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NDS",
     "Section": "67 N",
@@ -1005,11 +1088,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "NDS",
     "Section": "67 N",
@@ -1017,11 +1101,12 @@
     "Seat(s)": "20",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "MNM",
     "Section": "67 O",
@@ -1029,11 +1114,12 @@
     "Seat(s)": "4",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "MNM",
     "Section": "67 O",
@@ -1041,11 +1127,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "MNM",
     "Section": "67 O",
@@ -1053,11 +1140,12 @@
     "Seat(s)": "23",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "MYA",
     "Section": "67 P",
@@ -1065,11 +1153,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "MYA",
     "Section": "67 P",
@@ -1077,11 +1166,12 @@
     "Seat(s)": "26",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "MYA",
     "Section": "67 P",
@@ -1089,11 +1179,12 @@
     "Seat(s)": "1",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
+    "Department": "CSE",
+    "Course ID": "MAT211",
     "Course Title": "Engineering Mathematics",
     "Tech. Int.": "MYA",
     "Section": "67 Q",
@@ -1101,1218 +1192,1346 @@
     "Seat(s)": "11",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
-    "Tech. Int.": "MYA",
-    "Section": "67 Q",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
+    "Tech. Int.": "SAH",
+    "Section": "66 A",
+    "Room No": "208",
+    "Seat(s)": "18",
+    "Total": "51",
+    "Date": "29-06-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
+  },
+  {
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
+    "Tech. Int.": "SAH",
+    "Section": "66 A",
     "Room No": "213",
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
-    "Tech. Int.": "MYA",
-    "Section": "67 Q",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
+    "Tech. Int.": "SAH",
+    "Section": "66 A",
     "Room No": "216",
     "Seat(s)": "9",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "SAH",
     "Section": "66 B",
     "Room No": "216",
     "Seat(s)": "15",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "SAH",
     "Section": "66 B",
     "Room No": "217",
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "SAH",
     "Section": "66 B",
     "Room No": "218",
     "Seat(s)": "12",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "TDR",
     "Section": "66 C",
     "Room No": "218",
     "Seat(s)": "12",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "TDR",
     "Section": "66 C",
     "Room No": "219",
     "Seat(s)": "24",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "TDR",
     "Section": "66 C",
     "Room No": "220",
     "Seat(s)": "14",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "AHS",
     "Section": "66 D",
     "Room No": "220",
     "Seat(s)": "10",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "AHS",
     "Section": "66 D",
     "Room No": "221",
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "AHS",
     "Section": "66 D",
     "Room No": "222",
     "Seat(s)": "17",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "MIZ",
     "Section": "66 E",
     "Room No": "222",
     "Seat(s)": "7",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "MIZ",
     "Section": "66 E",
     "Room No": "223",
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "MIZ",
     "Section": "66 E",
     "Room No": "224",
     "Seat(s)": "20",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "TDR",
     "Section": "66 F",
     "Room No": "224",
     "Seat(s)": "4",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "TDR",
     "Section": "66 F",
     "Room No": "302",
     "Seat(s)": "22",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "TDR",
     "Section": "66 F",
     "Room No": "303",
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "TDR",
     "Section": "66 F",
     "Room No": "304",
     "Seat(s)": "1",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "FAJ",
     "Section": "66 G",
     "Room No": "304",
     "Seat(s)": "23",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "FAJ",
     "Section": "66 G",
     "Room No": "305",
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "FAJ",
     "Section": "66 G",
     "Room No": "306",
     "Seat(s)": "4",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "FAJ",
     "Section": "66 H",
     "Room No": "306",
     "Seat(s)": "20",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "FAJ",
     "Section": "66 H",
     "Room No": "307",
     "Seat(s)": "20",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "FAJ",
     "Section": "66 H",
     "Room No": "318A",
     "Seat(s)": "11",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "UA",
     "Section": "66 I",
     "Room No": "318A",
     "Seat(s)": "13",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "UA",
     "Section": "66 I",
     "Room No": "318B",
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "UA",
     "Section": "66 I",
     "Room No": "320",
     "Seat(s)": "14",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "UA",
     "Section": "66 J",
     "Room No": "320",
     "Seat(s)": "17",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "UA",
     "Section": "66 J",
     "Room No": "514",
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "UA",
     "Section": "66 J",
     "Room No": "515",
     "Seat(s)": "10",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "HJ",
     "Section": "66 K",
     "Room No": "515",
     "Seat(s)": "14",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "HJ",
     "Section": "66 K",
     "Room No": "516",
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "HJ",
     "Section": "66 K",
     "Room No": "517A",
     "Seat(s)": "13",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "HJ",
     "Section": "66 L",
     "Room No": "517A",
     "Seat(s)": "11",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "HJ",
     "Section": "66 L",
     "Room No": "518",
     "Seat(s)": "26",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "HJ",
     "Section": "66 L",
     "Room No": "801A",
     "Seat(s)": "14",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "AUA",
     "Section": "66 M",
     "Room No": "801A",
     "Seat(s)": "10",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "AUA",
     "Section": "66 M",
     "Room No": "801B",
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "AUA",
     "Section": "66 M",
     "Room No": "802",
     "Seat(s)": "17",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "SGP",
     "Section": "66 N",
     "Room No": "802",
     "Seat(s)": "7",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "SGP",
     "Section": "66 N",
     "Room No": "803",
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "SGP",
     "Section": "66 N",
     "Room No": "804",
     "Seat(s)": "20",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "SGP",
     "Section": "66 O",
     "Room No": "804",
     "Seat(s)": "4",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "SGP",
     "Section": "66 O",
     "Room No": "813B",
     "Seat(s)": "28",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "SGP",
     "Section": "66 O",
     "Room No": "815",
     "Seat(s)": "12",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "JAR",
     "Section": "66 P",
     "Room No": "G26",
     "Seat(s)": "17",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "JAR",
     "Section": "66 Q",
     "Room No": "501A-L",
     "Seat(s)": "10",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "JAR",
     "Section": "66 Q",
     "Room No": "503L",
     "Seat(s)": "20",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "CSE221",
+    "Course Title": "Object Oriented Programming",
     "Tech. Int.": "JAR",
     "Section": "66 Q",
     "Room No": "504L",
     "Seat(s)": "1",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
+    "Tech. Int.": "AJS",
+    "Section": "69 A",
+    "Room No": "208",
+    "Seat(s)": "27",
+    "Total": "51",
+    "Date": "29-06-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
+  },
+  {
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "FJA",
     "Section": "69 B",
     "Room No": "216",
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "FJA",
     "Section": "69 B",
     "Room No": "217",
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "FJA",
     "Section": "69 B",
     "Room No": "218",
     "Seat(s)": "3",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SMH",
     "Section": "69 C",
     "Room No": "218",
     "Seat(s)": "21",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SMH",
     "Section": "69 C",
     "Room No": "219",
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SMH",
     "Section": "69 C",
     "Room No": "220",
     "Seat(s)": "6",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "AJS",
     "Section": "69 D",
     "Room No": "220",
     "Seat(s)": "24",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "AJS",
     "Section": "69 D",
     "Room No": "221",
     "Seat(s)": "24",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "AJS",
     "Section": "69 D",
     "Room No": "222",
     "Seat(s)": "2",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ANR",
     "Section": "69 E",
     "Room No": "222",
     "Seat(s)": "22",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ANR",
     "Section": "69 E",
     "Room No": "223",
     "Seat(s)": "24",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ANR",
     "Section": "69 E",
     "Room No": "224",
     "Seat(s)": "4",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SMH",
     "Section": "69 F",
     "Room No": "224",
     "Seat(s)": "20",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SMH",
     "Section": "69 F",
     "Room No": "302",
     "Seat(s)": "31",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SMH",
     "Section": "69 G",
     "Room No": "302",
     "Seat(s)": "2",
     "Total": "49",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SMH",
     "Section": "69 G",
     "Room No": "303",
     "Seat(s)": "24",
     "Total": "49",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SMH",
     "Section": "69 G",
     "Room No": "304",
     "Seat(s)": "23",
     "Total": "49",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "FJA",
     "Section": "69 H",
     "Room No": "304",
     "Seat(s)": "1",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "FJA",
     "Section": "69 H",
     "Room No": "305",
     "Seat(s)": "24",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "FJA",
     "Section": "69 H",
     "Room No": "306",
     "Seat(s)": "24",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "FJA",
     "Section": "69 H",
     "Room No": "307",
     "Seat(s)": "1",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ASA",
     "Section": "69 I",
     "Room No": "307",
     "Seat(s)": "27",
     "Total": "47",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ASA",
     "Section": "69 I",
     "Room No": "318A",
     "Seat(s)": "20",
     "Total": "47",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ANR",
     "Section": "69 J",
     "Room No": "318A",
     "Seat(s)": "4",
     "Total": "49",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ANR",
     "Section": "69 J",
     "Room No": "318B",
     "Seat(s)": "24",
     "Total": "49",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ANR",
     "Section": "69 J",
     "Room No": "320",
     "Seat(s)": "21",
     "Total": "49",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ASA",
     "Section": "69 K",
     "Room No": "320",
     "Seat(s)": "26",
     "Total": "48",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ASA",
     "Section": "69 K",
     "Room No": "514",
     "Seat(s)": "22",
     "Total": "48",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ANR",
     "Section": "69 L",
     "Room No": "514",
     "Seat(s)": "2",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ANR",
     "Section": "69 L",
     "Room No": "515",
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ANR",
     "Section": "69 L",
     "Room No": "516",
     "Seat(s)": "24",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ANR",
     "Section": "69 L",
     "Room No": "517A",
     "Seat(s)": "1",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SMSH",
     "Section": "69 M",
     "Room No": "517A",
     "Seat(s)": "23",
     "Total": "49",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SMSH",
     "Section": "69 M",
     "Room No": "518",
     "Seat(s)": "26",
     "Total": "49",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SMSH",
     "Section": "69 N",
     "Room No": "518",
     "Seat(s)": "13",
     "Total": "47",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SMSH",
     "Section": "69 N",
     "Room No": "801A",
     "Seat(s)": "24",
     "Total": "47",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SMSH",
     "Section": "69 N",
     "Room No": "801B",
     "Seat(s)": "10",
     "Total": "47",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ASA",
     "Section": "69 O",
     "Room No": "801B",
     "Seat(s)": "14",
     "Total": "48",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ASA",
     "Section": "69 O",
     "Room No": "802",
     "Seat(s)": "24",
     "Total": "48",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ASA",
     "Section": "69 O",
     "Room No": "803",
     "Seat(s)": "10",
     "Total": "48",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ASA",
     "Section": "69 P",
     "Room No": "803",
     "Seat(s)": "13",
     "Total": "49",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ASA",
     "Section": "69 P",
     "Room No": "804",
     "Seat(s)": "24",
     "Total": "49",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "ASA",
     "Section": "69 P",
     "Room No": "813B",
     "Seat(s)": "12",
     "Total": "49",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SIS",
     "Section": "69 Q",
     "Room No": "813B",
     "Seat(s)": "14",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SIS",
     "Section": "69 Q",
     "Room No": "815",
     "Seat(s)": "12",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SSN",
     "Section": "69 R",
     "Room No": "G27",
     "Seat(s)": "23",
     "Total": "50",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SSN",
     "Section": "69 S",
     "Room No": "501B-L",
     "Seat(s)": "23",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SSN",
     "Section": "69 S",
     "Room No": "503L",
     "Seat(s)": "25",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SSN",
     "Section": "69 S",
     "Room No": "504L",
     "Seat(s)": "3",
     "Total": "51",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SSN",
     "Section": "69 T",
     "Room No": "504L",
     "Seat(s)": "22",
     "Total": "52",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SSN",
     "Section": "69 T",
     "Room No": "510L",
     "Seat(s)": "25",
     "Total": "52",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "MAT211",
-    "Course Title": "Engineering Mathematics",
+    "Department": "FSIT",
+    "Course ID": "ENG101",
+    "Course Title": "Basic Functional English",
     "Tech. Int.": "SSN",
     "Section": "69 T",
     "Room No": "513L",
     "Seat(s)": "5",
     "Total": "52",
     "Date": "29-06-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   }
 ]

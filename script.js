@@ -282,8 +282,11 @@ function createSessionHTML(sessionKey, sessionData) {
     return `
         <div class="exam-card">
             <div class="course-header">
-                <div class="course-title">${course['Course Title']}</div>
-                <div class="course-id">${course.ID}</div>
+                <div class="course-title-row">
+                    <div class="course-title">${course['Course Title']}</div>
+                    <div class="course-id">${course.ID}</div>
+                </div>
+                ${course.Time ? `<div class="exam-time">${course.Time}</div>` : ''}
             </div>
             
             <div class="exam-details">

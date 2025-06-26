@@ -18,7 +18,6 @@ body {
 }
 
 header {
-    text-align: center;
     margin-bottom: 40px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -27,6 +26,49 @@ header {
     box-shadow: 0 8px 32px rgba(102, 126, 234, 0.2);
     position: relative;
     overflow: hidden;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.header-text {
+    flex: 1;
+    text-align: center;
+}
+
+.header-logo {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+.left-logo {
+    justify-content: flex-start;
+}
+
+.right-logo {
+    justify-content: flex-end;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.logo:hover {
+    transform: scale(1.05);
 }
 
 header::before {
@@ -163,19 +205,56 @@ select:focus, input[type="text"]:focus {
 
 .course-header {
     margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.course-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
 }
 
 .course-title {
     font-size: 1.1rem;
     font-weight: 600;
     color: #2c3e50;
-    margin-bottom: 4px;
+    flex: 1;
+    min-width: 0; /* Allow text truncation */
+}
+
+.course-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
 }
 
 .course-id {
     font-size: 0.9rem;
     color: #7f8c8d;
     font-weight: 500;
+    white-space: nowrap;
+}
+
+.exam-time {
+    background: linear-gradient(135deg, #4a90e2, #357abd);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(74, 144, 226, 0.3);
+    text-align: center;
+    align-self: center;
+}
+
+.exam-time::before {
+    content: "🕐 ";
+    font-size: 0.8rem;
+    margin-right: 4px;
 }
 
 .exam-details {
@@ -409,6 +488,63 @@ footer a:hover {
     }
 }
 
+/* Notice Banner */
+.notice-banner {
+    background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+    border: 2px solid rgba(253, 203, 110, 0.3);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(253, 203, 110, 0.2);
+    animation: gentle-pulse 3s ease-in-out infinite;
+}
+
+.notice-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    max-width: 100%;
+}
+
+.notice-icon {
+    font-size: 1.8rem;
+    flex-shrink: 0;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+.notice-text {
+    color: #8b4513;
+    font-size: 1rem;
+    line-height: 1.4;
+    flex: 1;
+}
+
+.notice-text strong {
+    color: #d35400;
+    font-weight: 700;
+}
+
+@keyframes gentle-pulse {
+    0%, 100% {
+        box-shadow: 0 4px 15px rgba(253, 203, 110, 0.2);
+    }
+    50% {
+        box-shadow: 0 6px 20px rgba(253, 203, 110, 0.3);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-3px);
+    }
+    60% {
+        transform: translateY(-2px);
+    }
+}
+
 /* Responsive Design */
 @media (max-width: 1200px) {
     .controls {
@@ -429,8 +565,33 @@ footer a:hover {
         padding: 15px;
     }
     
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .header-text {
+        text-align: center;
+    }
+    
+    .logos-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    header {
+        padding: 20px 15px;
+    }
+    
     header h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+    
+    .logo {
+        height: 50px;
     }
     
     .controls {
@@ -464,5 +625,45 @@ footer a:hover {
     .date-header {
         font-size: 1.1rem;
         padding: 12px 15px;
+    }
+    
+    /* Responsive design for course header */
+    .course-title-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+    
+    .course-title {
+        font-size: 1rem;
+    }
+    
+    .course-id {
+        font-size: 0.85rem;
+    }
+    
+    .exam-time {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+        align-self: stretch;
+    }
+    
+    .notice-banner {
+        padding: 12px 16px;
+        margin-bottom: 20px;
+    }
+    
+    .notice-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .notice-text {
+        font-size: 0.9rem;
+    }
+    
+    .notice-icon {
+        font-size: 1.5rem;
     }
 }

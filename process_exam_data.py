@@ -107,15 +107,17 @@ def clean_exam_data(exam_data):
     
     for exam in exam_data:
         cleaned_exam = {
-            "Dept.": exam.get("Dept.", "").strip(),
-            "ID": exam.get("ID", "").strip(),
+            "Dept.": exam.get("Dept.", exam.get("Department", "")).strip(),
+            "ID": exam.get("ID", exam.get("Course ID", "")).strip(),
             "Course Title": exam.get("Course Title", "").strip(),
             "Tech. Int.": exam.get("Tech. Int.", "").strip(),
             "Section": standardize_section_name(exam.get("Section", "")),
             "Room No": str(exam.get("Room No", "")).strip(),
             "Seat(s)": str(exam.get("Seat(s)", "")).strip(),
             "Total": str(exam.get("Total", "")).strip() if exam.get("Total") else "",
-            "Date": standardize_date(exam.get("Date", ""))
+            "Date": standardize_date(exam.get("Date", "")),
+            "Time": exam.get("Time", "").strip(),
+            "Slot": exam.get("Slot", "").strip()
         }
         cleaned_data.append(cleaned_exam)
     
@@ -144,7 +146,9 @@ def group_exams_by_date_and_course(exam_data):
                 "Tech. Int.": exam["Tech. Int."],
                 "Section": exam["Section"],
                 "Date": exam["Date"],
-                "Total": exam["Total"] or ""
+                "Total": exam["Total"] or "",
+                "Time": exam["Time"],
+                "Slot": exam["Slot"]
             }
         
         # Add room information
@@ -192,7 +196,9 @@ def convert_to_flat_array(grouped_data):
                     "Room No": room["Room No"],
                     "Seat(s)": room["Seat(s)"],
                     "Total": course_info["Total"] if i == 0 else "",  # Only show total on first room
-                    "Date": course_info["Date"]
+                    "Date": course_info["Date"],
+                    "Time": course_info["Time"] if i == 0 else "",  # Only show time on first room
+                    "Slot": course_info["Slot"] if i == 0 else ""   # Only show slot on first room
                 })
     
     return result

@@ -1,6 +1,6 @@
 [
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "AKC",
@@ -9,10 +9,11 @@
     "Seat(s)": "27",
     "Total": "44",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "AKC",
@@ -21,10 +22,11 @@
     "Seat(s)": "17",
     "Total": "44",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "SSL",
@@ -33,10 +35,11 @@
     "Seat(s)": "7",
     "Total": "48",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "SSL",
@@ -45,10 +48,11 @@
     "Seat(s)": "24",
     "Total": "48",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "SSL",
@@ -57,10 +61,11 @@
     "Seat(s)": "17",
     "Total": "48",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "SSL",
@@ -69,10 +74,11 @@
     "Seat(s)": "7",
     "Total": "47",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "SSL",
@@ -81,10 +87,11 @@
     "Seat(s)": "24",
     "Total": "47",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "SSL",
@@ -93,10 +100,11 @@
     "Seat(s)": "16",
     "Total": "47",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "AKC",
@@ -105,10 +113,11 @@
     "Seat(s)": "8",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "AKC",
@@ -117,10 +126,11 @@
     "Seat(s)": "30",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "AKC",
@@ -129,10 +139,11 @@
     "Seat(s)": "12",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "AKC",
@@ -141,10 +152,11 @@
     "Seat(s)": "12",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "AKC",
@@ -153,10 +165,11 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "AKC",
@@ -165,10 +178,11 @@
     "Seat(s)": "14",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "SSL",
@@ -177,10 +191,11 @@
     "Seat(s)": "10",
     "Total": "47",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "SSL",
@@ -189,10 +204,11 @@
     "Seat(s)": "24",
     "Total": "47",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "SSL",
@@ -201,10 +217,11 @@
     "Seat(s)": "13",
     "Total": "47",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "SSL",
@@ -213,10 +230,11 @@
     "Seat(s)": "20",
     "Total": "48",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "SSL",
@@ -225,10 +243,11 @@
     "Seat(s)": "24",
     "Total": "48",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "SSL",
@@ -237,10 +256,11 @@
     "Seat(s)": "4",
     "Total": "48",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "SSL",
@@ -249,10 +269,11 @@
     "Seat(s)": "20",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "SSL",
@@ -261,10 +282,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "SSL",
@@ -273,10 +295,11 @@
     "Seat(s)": "7",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "MYA",
@@ -285,10 +308,11 @@
     "Seat(s)": "17",
     "Total": "47",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "MYA",
@@ -297,10 +321,11 @@
     "Seat(s)": "28",
     "Total": "47",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "MYA",
@@ -309,10 +334,11 @@
     "Seat(s)": "2",
     "Total": "47",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "AKC",
@@ -321,10 +347,11 @@
     "Seat(s)": "22",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "AKC",
@@ -333,10 +360,11 @@
     "Seat(s)": "24",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "AKC",
@@ -345,10 +373,11 @@
     "Seat(s)": "3",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "MYA",
@@ -357,10 +386,11 @@
     "Seat(s)": "44",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "MYA",
@@ -369,10 +399,11 @@
     "Seat(s)": "7",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "AKC",
@@ -381,10 +412,11 @@
     "Seat(s)": "17",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "AKC",
@@ -393,10 +425,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "AKC",
@@ -405,10 +438,11 @@
     "Seat(s)": "10",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "DSK",
@@ -417,10 +451,11 @@
     "Seat(s)": "14",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "DSK",
@@ -429,10 +464,11 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "DSK",
@@ -441,10 +477,11 @@
     "Seat(s)": "12",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "DSK",
@@ -453,10 +490,11 @@
     "Seat(s)": "27",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "DSK",
@@ -465,10 +503,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "DSK",
@@ -477,10 +516,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "DSK",
@@ -489,10 +529,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE226",
     "Course Title": "Numerical Methods",
     "Tech. Int.": "DSK",
@@ -501,10 +542,11 @@
     "Seat(s)": "3",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "STA",
@@ -513,10 +555,11 @@
     "Seat(s)": "18",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "STA",
@@ -525,10 +568,11 @@
     "Seat(s)": "24",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "STA",
@@ -537,10 +581,11 @@
     "Seat(s)": "10",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "MSK",
@@ -549,10 +594,11 @@
     "Seat(s)": "14",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "MSK",
@@ -561,10 +607,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "MSK",
@@ -573,10 +620,11 @@
     "Seat(s)": "13",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "LR",
@@ -585,10 +633,11 @@
     "Seat(s)": "11",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "LR",
@@ -597,10 +646,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "LR",
@@ -609,10 +659,11 @@
     "Seat(s)": "16",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "AHS",
@@ -621,10 +672,11 @@
     "Seat(s)": "8",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "AHS",
@@ -633,10 +685,11 @@
     "Seat(s)": "24",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "AHS",
@@ -645,10 +698,11 @@
     "Seat(s)": "20",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "DA",
@@ -657,10 +711,11 @@
     "Seat(s)": "4",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "DA",
@@ -669,10 +724,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "DA",
@@ -681,10 +737,11 @@
     "Seat(s)": "23",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "AHS",
@@ -693,10 +750,11 @@
     "Seat(s)": "1",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "AHS",
@@ -705,10 +763,11 @@
     "Seat(s)": "22",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "AHS",
@@ -717,10 +776,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "AHS",
@@ -729,10 +789,11 @@
     "Seat(s)": "4",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "FA",
@@ -741,10 +802,11 @@
     "Seat(s)": "20",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "FA",
@@ -753,10 +815,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "FA",
@@ -765,10 +828,11 @@
     "Seat(s)": "7",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "DA",
@@ -777,10 +841,11 @@
     "Seat(s)": "17",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "DA",
@@ -789,10 +854,11 @@
     "Seat(s)": "20",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "DA",
@@ -801,10 +867,11 @@
     "Seat(s)": "14",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "STA",
@@ -813,10 +880,11 @@
     "Seat(s)": "10",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "STA",
@@ -825,10 +893,11 @@
     "Seat(s)": "24",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "STA",
@@ -837,10 +906,11 @@
     "Seat(s)": "18",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "LR",
@@ -849,10 +919,11 @@
     "Seat(s)": "13",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "LR",
@@ -861,10 +932,11 @@
     "Seat(s)": "24",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "LR",
@@ -873,10 +945,11 @@
     "Seat(s)": "15",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "MSK",
@@ -885,10 +958,11 @@
     "Seat(s)": "9",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "MSK",
@@ -897,10 +971,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "MSK",
@@ -909,10 +984,11 @@
     "Seat(s)": "18",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "FA",
@@ -921,10 +997,11 @@
     "Seat(s)": "6",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "FA",
@@ -933,10 +1010,11 @@
     "Seat(s)": "26",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "FA",
@@ -945,10 +1023,11 @@
     "Seat(s)": "19",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "SEA",
@@ -957,10 +1036,11 @@
     "Seat(s)": "5",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "SEA",
@@ -969,10 +1049,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "SEA",
@@ -981,10 +1062,11 @@
     "Seat(s)": "22",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "MDA",
@@ -993,10 +1075,11 @@
     "Seat(s)": "2",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "MDA",
@@ -1005,10 +1088,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "MDA",
@@ -1017,10 +1101,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "MDA",
@@ -1029,10 +1114,11 @@
     "Seat(s)": "1",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE423",
     "Course Title": "Information Security",
     "Tech. Int.": "FA",
@@ -1041,10 +1127,11 @@
     "Seat(s)": "12",
     "Total": "12",
     "Date": "05-07-2025",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "AKM",
@@ -1053,10 +1140,11 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "AKM",
@@ -1065,10 +1153,11 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "AKM",
@@ -1077,10 +1166,11 @@
     "Seat(s)": "2",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MAS",
@@ -1089,10 +1179,11 @@
     "Seat(s)": "22",
     "Total": "48",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MAS",
@@ -1101,10 +1192,11 @@
     "Seat(s)": "24",
     "Total": "48",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MAS",
@@ -1113,10 +1205,11 @@
     "Seat(s)": "2",
     "Total": "48",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "AKM",
@@ -1125,10 +1218,11 @@
     "Seat(s)": "28",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "AKM",
@@ -1137,10 +1231,11 @@
     "Seat(s)": "23",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MSU",
@@ -1149,10 +1244,11 @@
     "Seat(s)": "1",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MSU",
@@ -1161,10 +1257,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MSU",
@@ -1173,10 +1270,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MSU",
@@ -1185,10 +1283,11 @@
     "Seat(s)": "2",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRIS",
@@ -1197,10 +1296,11 @@
     "Seat(s)": "22",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRIS",
@@ -1209,10 +1309,11 @@
     "Seat(s)": "28",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRH",
@@ -1221,10 +1322,11 @@
     "Seat(s)": "5",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRH",
@@ -1233,10 +1335,11 @@
     "Seat(s)": "24",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRH",
@@ -1245,10 +1348,11 @@
     "Seat(s)": "20",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRIS",
@@ -1257,10 +1361,11 @@
     "Seat(s)": "4",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRIS",
@@ -1269,10 +1374,11 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRIS",
@@ -1281,10 +1387,11 @@
     "Seat(s)": "22",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRH",
@@ -1293,10 +1400,11 @@
     "Seat(s)": "2",
     "Total": "44",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRH",
@@ -1305,10 +1413,11 @@
     "Seat(s)": "28",
     "Total": "44",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRH",
@@ -1317,10 +1426,11 @@
     "Seat(s)": "14",
     "Total": "44",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "RHK",
@@ -1329,10 +1439,11 @@
     "Seat(s)": "10",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "RHK",
@@ -1341,10 +1452,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "RHK",
@@ -1353,10 +1465,11 @@
     "Seat(s)": "17",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "AHT",
@@ -1365,10 +1478,11 @@
     "Seat(s)": "30",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "AHT",
@@ -1377,10 +1491,11 @@
     "Seat(s)": "21",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRS",
@@ -1389,10 +1504,11 @@
     "Seat(s)": "3",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRS",
@@ -1401,10 +1517,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRS",
@@ -1413,10 +1530,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "RHK",
@@ -1425,10 +1543,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "RHK",
@@ -1437,10 +1556,11 @@
     "Seat(s)": "27",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRS",
@@ -1449,10 +1569,11 @@
     "Seat(s)": "12",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRS",
@@ -1461,10 +1582,11 @@
     "Seat(s)": "24",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MRS",
@@ -1473,10 +1595,11 @@
     "Seat(s)": "13",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "AHT",
@@ -1485,10 +1608,11 @@
     "Seat(s)": "11",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "AHT",
@@ -1497,10 +1621,11 @@
     "Seat(s)": "24",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "AHT",
@@ -1509,10 +1634,11 @@
     "Seat(s)": "14",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MSU",
@@ -1521,10 +1647,11 @@
     "Seat(s)": "9",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MSU",
@@ -1533,10 +1660,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MSU",
@@ -1545,10 +1673,11 @@
     "Seat(s)": "18",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MLR",
@@ -1557,10 +1686,11 @@
     "Seat(s)": "8",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MLR",
@@ -1569,10 +1699,11 @@
     "Seat(s)": "12",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE121",
     "Course Title": "Electrical Circuits",
     "Tech. Int.": "MSAM",
@@ -1581,10 +1712,11 @@
     "Seat(s)": "18",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "MKH",
@@ -1593,10 +1725,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "MKH",
@@ -1605,10 +1738,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "MKH",
@@ -1617,10 +1751,11 @@
     "Seat(s)": "3",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "MKH",
@@ -1629,10 +1764,11 @@
     "Seat(s)": "21",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "MKH",
@@ -1641,10 +1777,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "MKH",
@@ -1653,10 +1790,11 @@
     "Seat(s)": "6",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AST",
@@ -1665,10 +1803,11 @@
     "Seat(s)": "18",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AST",
@@ -1677,10 +1816,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AST",
@@ -1689,10 +1829,11 @@
     "Seat(s)": "9",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AMN",
@@ -1701,10 +1842,11 @@
     "Seat(s)": "15",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AMN",
@@ -1713,10 +1855,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AMN",
@@ -1725,10 +1868,11 @@
     "Seat(s)": "12",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AMN",
@@ -1737,10 +1881,11 @@
     "Seat(s)": "12",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AMN",
@@ -1749,10 +1894,11 @@
     "Seat(s)": "22",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AMN",
@@ -1761,10 +1907,11 @@
     "Seat(s)": "17",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AMN",
@@ -1773,10 +1920,11 @@
     "Seat(s)": "7",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AMN",
@@ -1785,10 +1933,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AMN",
@@ -1797,10 +1946,11 @@
     "Seat(s)": "20",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AMN",
@@ -1809,10 +1959,11 @@
     "Seat(s)": "4",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AMN",
@@ -1821,10 +1972,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AMN",
@@ -1833,10 +1985,11 @@
     "Seat(s)": "20",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AMN",
@@ -1845,10 +1998,11 @@
     "Seat(s)": "3",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AST",
@@ -1857,10 +2011,11 @@
     "Seat(s)": "21",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AST",
@@ -1869,10 +2024,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AST",
@@ -1881,10 +2037,11 @@
     "Seat(s)": "6",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AST",
@@ -1893,10 +2050,11 @@
     "Seat(s)": "25",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AST",
@@ -1905,10 +2063,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AST",
@@ -1917,10 +2076,11 @@
     "Seat(s)": "2",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AST",
@@ -1929,10 +2089,11 @@
     "Seat(s)": "22",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AST",
@@ -1941,10 +2102,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AST",
@@ -1953,10 +2115,11 @@
     "Seat(s)": "5",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "NFR",
@@ -1965,10 +2128,11 @@
     "Seat(s)": "19",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "NFR",
@@ -1977,10 +2141,11 @@
     "Seat(s)": "26",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "NFR",
@@ -1989,10 +2154,11 @@
     "Seat(s)": "6",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AMN",
@@ -2001,10 +2167,11 @@
     "Seat(s)": "18",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AMN",
@@ -2013,10 +2180,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AMN",
@@ -2025,10 +2193,11 @@
     "Seat(s)": "9",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AST",
@@ -2037,10 +2206,11 @@
     "Seat(s)": "15",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AST",
@@ -2049,10 +2219,11 @@
     "Seat(s)": "24",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "AST",
@@ -2061,10 +2232,11 @@
     "Seat(s)": "13",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "TKR",
@@ -2073,10 +2245,11 @@
     "Seat(s)": "11",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "TKR",
@@ -2085,10 +2258,11 @@
     "Seat(s)": "28",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "TKR",
@@ -2097,10 +2271,11 @@
     "Seat(s)": "12",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "STA101",
     "Course Title": "Statistics and Probability",
     "Tech. Int.": "TKR",
@@ -2109,10 +2284,11 @@
     "Seat(s)": "23",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "FTJ",
@@ -2121,10 +2297,11 @@
     "Seat(s)": "27",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "MSM",
@@ -2133,10 +2310,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "MSM",
@@ -2145,10 +2323,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "MSM",
@@ -2157,10 +2336,11 @@
     "Seat(s)": "3",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "MSM",
@@ -2169,10 +2349,11 @@
     "Seat(s)": "21",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "MSM",
@@ -2181,10 +2362,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "MSM",
@@ -2193,10 +2375,11 @@
     "Seat(s)": "6",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "AUA",
@@ -2205,10 +2388,11 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "AUA",
@@ -2217,10 +2401,11 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "AUA",
@@ -2229,10 +2414,11 @@
     "Seat(s)": "2",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "JHJ",
@@ -2241,10 +2427,11 @@
     "Seat(s)": "22",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "JHJ",
@@ -2253,10 +2440,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "JHJ",
@@ -2265,10 +2453,11 @@
     "Seat(s)": "5",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ABA",
@@ -2277,10 +2466,11 @@
     "Seat(s)": "19",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ABA",
@@ -2289,10 +2479,11 @@
     "Seat(s)": "32",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ABA",
@@ -2301,10 +2492,11 @@
     "Seat(s)": "1",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ABA",
@@ -2313,10 +2505,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ABA",
@@ -2325,10 +2518,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ABA",
@@ -2337,10 +2531,11 @@
     "Seat(s)": "2",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ZAF",
@@ -2349,10 +2544,11 @@
     "Seat(s)": "22",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ZAF",
@@ -2361,10 +2557,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ZAF",
@@ -2373,10 +2570,11 @@
     "Seat(s)": "5",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ZMK",
@@ -2385,10 +2583,11 @@
     "Seat(s)": "23",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ZMK",
@@ -2397,10 +2596,11 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ZMK",
@@ -2409,10 +2609,11 @@
     "Seat(s)": "3",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "FNK",
@@ -2421,10 +2622,11 @@
     "Seat(s)": "21",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "FNK",
@@ -2433,10 +2635,11 @@
     "Seat(s)": "30",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ZAF",
@@ -2445,10 +2648,11 @@
     "Seat(s)": "17",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ZAF",
@@ -2457,10 +2661,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ZAF",
@@ -2469,10 +2674,11 @@
     "Seat(s)": "10",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "MRA",
@@ -2481,10 +2687,11 @@
     "Seat(s)": "14",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "MRA",
@@ -2493,10 +2700,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "MRA",
@@ -2505,10 +2713,11 @@
     "Seat(s)": "13",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "FTJ",
@@ -2517,10 +2726,11 @@
     "Seat(s)": "11",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "FTJ",
@@ -2529,10 +2739,11 @@
     "Seat(s)": "39",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "FTJ",
@@ -2541,10 +2752,11 @@
     "Seat(s)": "1",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "AUA",
@@ -2553,10 +2765,11 @@
     "Seat(s)": "23",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "AUA",
@@ -2565,10 +2778,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "AUA",
@@ -2577,10 +2791,11 @@
     "Seat(s)": "4",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ZMK",
@@ -2589,10 +2804,11 @@
     "Seat(s)": "20",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ZMK",
@@ -2601,10 +2817,11 @@
     "Seat(s)": "23",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "ZMK",
@@ -2613,10 +2830,11 @@
     "Seat(s)": "7",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "FNK",
@@ -2625,10 +2843,11 @@
     "Seat(s)": "17",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "FNK",
@@ -2637,10 +2856,11 @@
     "Seat(s)": "26",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "FNK",
@@ -2649,10 +2869,11 @@
     "Seat(s)": "8",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "AIR",
@@ -2661,10 +2882,11 @@
     "Seat(s)": "4",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "HHP",
@@ -2673,10 +2895,11 @@
     "Seat(s)": "1",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "HHP",
@@ -2685,10 +2908,11 @@
     "Seat(s)": "25",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "HHP",
@@ -2697,10 +2921,11 @@
     "Seat(s)": "25",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "HHP",
@@ -2709,10 +2934,11 @@
     "Seat(s)": "1",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "HHP",
@@ -2721,10 +2947,11 @@
     "Seat(s)": "24",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "HHP",
@@ -2733,10 +2960,11 @@
     "Seat(s)": "25",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "CSE115",
     "Course Title": "Introduction to Biology",
     "Tech. Int.": "HHP",
@@ -2745,10 +2973,11 @@
     "Seat(s)": "3",
     "Total": "52",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MRR",
@@ -2757,10 +2986,11 @@
     "Seat(s)": "18",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MRR",
@@ -2769,10 +2999,11 @@
     "Seat(s)": "7",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "SP",
@@ -2781,10 +3012,11 @@
     "Seat(s)": "17",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "SP",
@@ -2793,10 +3025,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "SP",
@@ -2805,10 +3038,11 @@
     "Seat(s)": "10",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MRR",
@@ -2817,10 +3051,11 @@
     "Seat(s)": "14",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MRR",
@@ -2829,10 +3064,11 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MRR",
@@ -2841,10 +3077,11 @@
     "Seat(s)": "12",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MNM",
@@ -2853,10 +3090,11 @@
     "Seat(s)": "12",
     "Total": "48",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MNM",
@@ -2865,10 +3103,11 @@
     "Seat(s)": "24",
     "Total": "48",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MNM",
@@ -2877,10 +3116,11 @@
     "Seat(s)": "12",
     "Total": "48",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MPL",
@@ -2889,10 +3129,11 @@
     "Seat(s)": "12",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MPL",
@@ -2901,10 +3142,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MPL",
@@ -2913,10 +3155,11 @@
     "Seat(s)": "15",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MNM",
@@ -2925,10 +3168,11 @@
     "Seat(s)": "9",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MNM",
@@ -2937,10 +3181,11 @@
     "Seat(s)": "22",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MNM",
@@ -2949,10 +3194,11 @@
     "Seat(s)": "19",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MPL",
@@ -2961,10 +3207,11 @@
     "Seat(s)": "5",
     "Total": "48",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MPL",
@@ -2973,10 +3220,11 @@
     "Seat(s)": "24",
     "Total": "48",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MPL",
@@ -2985,10 +3233,11 @@
     "Seat(s)": "19",
     "Total": "48",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MPL",
@@ -2997,10 +3246,11 @@
     "Seat(s)": "5",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MPL",
@@ -3009,10 +3259,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MPL",
@@ -3021,10 +3272,11 @@
     "Seat(s)": "20",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MPL",
@@ -3033,10 +3285,11 @@
     "Seat(s)": "2",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MPL",
@@ -3045,10 +3298,11 @@
     "Seat(s)": "22",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MPL",
@@ -3057,10 +3311,11 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MPL",
@@ -3069,10 +3324,11 @@
     "Seat(s)": "4",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MPL",
@@ -3081,10 +3337,11 @@
     "Seat(s)": "27",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "MPL",
@@ -3093,10 +3350,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "NRA",
@@ -3105,10 +3363,11 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "NRA",
@@ -3117,10 +3376,11 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "NRA",
@@ -3129,10 +3389,11 @@
     "Seat(s)": "2",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "ABM",
@@ -3141,10 +3402,11 @@
     "Seat(s)": "22",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "ABM",
@@ -3153,10 +3415,11 @@
     "Seat(s)": "26",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "ABM",
@@ -3165,10 +3428,11 @@
     "Seat(s)": "2",
     "Total": "50",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "NRA",
@@ -3177,10 +3441,11 @@
     "Seat(s)": "22",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "NRA",
@@ -3189,10 +3454,11 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "NRA",
@@ -3201,10 +3467,11 @@
     "Seat(s)": "5",
     "Total": "51",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "NRA",
@@ -3213,10 +3480,11 @@
     "Seat(s)": "19",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "NRA",
@@ -3225,10 +3493,11 @@
     "Seat(s)": "24",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "NRA",
@@ -3237,10 +3506,11 @@
     "Seat(s)": "6",
     "Total": "49",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "ABM",
@@ -3249,10 +3519,11 @@
     "Seat(s)": "18",
     "Total": "46",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "ABM",
@@ -3261,10 +3532,11 @@
     "Seat(s)": "28",
     "Total": "46",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "NRA",
@@ -3273,10 +3545,11 @@
     "Seat(s)": "12",
     "Total": "46",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "ABM",
@@ -3285,10 +3558,11 @@
     "Seat(s)": "14",
     "Total": "46",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "ABM",
@@ -3297,10 +3571,11 @@
     "Seat(s)": "8",
     "Total": "47",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "ABM",
@@ -3309,10 +3584,11 @@
     "Seat(s)": "20",
     "Total": "47",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   },
   {
-    "Faculty": "FSIT",
+    "Department": "FSIT",
     "Course ID": "MAT102",
     "Course Title": "Mathematics-II Calculus Complex",
     "Tech. Int.": "ABM",
@@ -3321,6 +3597,7 @@
     "Seat(s)": "19",
     "Total": "47",
     "Date": "05-07-2025",
-    "Slot": "C"
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
   }
 ]

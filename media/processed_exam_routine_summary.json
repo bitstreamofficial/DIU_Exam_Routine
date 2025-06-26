@@ -1,10 +1,10 @@
 {
-  "total_entries": 1540,
-  "unique_courses": 23,
+  "total_entries": 1542,
+  "unique_courses": 34,
   "unique_sections": 154,
   "unique_departments": [
-    "",
-    "CSE"
+    "CSE",
+    "FSIT"
   ],
   "date_range": {
     "start": "28-06-2025",
@@ -277,7 +277,8 @@
     "67 N": 12,
     "67 O": 11,
     "67 P": 8,
-    "67 Q": 8,
+    "67 Q": 6,
+    "66 A": 5,
     "66 B": 11,
     "66 C": 9,
     "66 D": 9,
@@ -294,6 +295,7 @@
     "66 O": 9,
     "66 P": 7,
     "66 Q": 5,
+    "69 A": 4,
     "69 B": 12,
     "69 C": 12,
     "69 D": 12,
@@ -319,16 +321,19 @@
     "60 D": 5,
     "60 E": 6,
     "60 F": 8,
-    "MSH": 2,
-    "66 A": 2,
-    "69 A": 3
+    "MSH": 2
   },
   "courses": [
-    "",
+    "AOL101",
     "CSE112",
     "CSE113",
+    "CSE115",
+    "CSE121",
+    "CSE212",
     "CSE213",
     "CSE215",
+    "CSE221",
+    "CSE226",
     "CSE227",
     "CSE233",
     "CSE311",
@@ -336,20 +341,26 @@
     "CSE317",
     "CSE321",
     "CSE323",
+    "CSE325",
     "CSE331",
     "CSE333",
     "CSE411",
     "CSE413",
     "CSE414",
+    "CSE423",
     "CSE426",
     "CSE445",
     "CSE498",
+    "ENG101",
     "ENG102",
+    "MAT101",
+    "MAT102",
     "MAT211",
-    "PHY101"
+    "PHY101",
+    "STA101"
   ],
-  "last_updated": "2025-06-27T02:18:16.042962",
-  "processed_at": "2025-06-27 02:18:16",
+  "last_updated": "2025-06-27T03:39:08.033622",
+  "processed_at": "2025-06-27 03:39:08",
   "input_folder": "media",
   "output_file": "media/processed_exam_routine.json"
 }

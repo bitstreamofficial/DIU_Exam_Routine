@@ -1,7 +1,7 @@
 [
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SNK",
     "Section": "67 A",
@@ -9,11 +9,12 @@
     "Seat(s)": "18",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SNK",
     "Section": "67 A",
@@ -21,11 +22,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SNK",
     "Section": "67 A",
@@ -33,11 +35,12 @@
     "Seat(s)": "8",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SI",
     "Section": "67 B",
@@ -45,11 +48,12 @@
     "Seat(s)": "16",
     "Total": "46",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SI",
     "Section": "67 B",
@@ -57,11 +61,12 @@
     "Seat(s)": "24",
     "Total": "46",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SI",
     "Section": "67 B",
@@ -69,11 +74,12 @@
     "Seat(s)": "6",
     "Total": "46",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "TAR",
     "Section": "67 C",
@@ -81,11 +87,12 @@
     "Seat(s)": "18",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "TAR",
     "Section": "67 C",
@@ -93,11 +100,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "TAR",
     "Section": "67 C",
@@ -105,11 +113,12 @@
     "Seat(s)": "9",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SMAH",
     "Section": "67 D",
@@ -117,11 +126,12 @@
     "Seat(s)": "15",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SMAH",
     "Section": "67 D",
@@ -129,11 +139,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SMAH",
     "Section": "67 D",
@@ -141,11 +152,12 @@
     "Seat(s)": "12",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "FAF",
     "Section": "67 E",
@@ -153,11 +165,12 @@
     "Seat(s)": "12",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "FAF",
     "Section": "67 E",
@@ -165,11 +178,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "FAF",
     "Section": "67 E",
@@ -177,11 +191,12 @@
     "Seat(s)": "14",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SI",
     "Section": "67 F",
@@ -189,11 +204,12 @@
     "Seat(s)": "10",
     "Total": "47",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SI",
     "Section": "67 F",
@@ -201,11 +217,12 @@
     "Seat(s)": "22",
     "Total": "47",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SI",
     "Section": "67 F",
@@ -213,11 +230,12 @@
     "Seat(s)": "15",
     "Total": "47",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SI",
     "Section": "67 G",
@@ -225,11 +243,12 @@
     "Seat(s)": "9",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SI",
     "Section": "67 G",
@@ -237,11 +256,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SI",
     "Section": "67 G",
@@ -249,11 +269,12 @@
     "Seat(s)": "18",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "MUH",
     "Section": "67 H",
@@ -261,11 +282,12 @@
     "Seat(s)": "6",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "MUH",
     "Section": "67 H",
@@ -273,11 +295,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "MUH",
     "Section": "67 H",
@@ -285,11 +308,12 @@
     "Seat(s)": "20",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "FAN",
     "Section": "67 I",
@@ -297,11 +321,12 @@
     "Seat(s)": "24",
     "Total": "49",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "FAN",
     "Section": "67 I",
@@ -309,11 +334,12 @@
     "Seat(s)": "24",
     "Total": "49",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "FAN",
     "Section": "67 I",
@@ -321,11 +347,12 @@
     "Seat(s)": "1",
     "Total": "49",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "AGT",
     "Section": "67 J",
@@ -333,11 +360,12 @@
     "Seat(s)": "30",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "AGT",
     "Section": "67 J",
@@ -345,11 +373,12 @@
     "Seat(s)": "20",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "TAR",
     "Section": "67 K",
@@ -357,11 +386,12 @@
     "Seat(s)": "4",
     "Total": "49",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "TAR",
     "Section": "67 K",
@@ -369,11 +399,12 @@
     "Seat(s)": "24",
     "Total": "49",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "TAR",
     "Section": "67 K",
@@ -381,11 +412,12 @@
     "Seat(s)": "21",
     "Total": "49",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "TAB",
     "Section": "67 L",
@@ -393,11 +425,12 @@
     "Seat(s)": "3",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "TAB",
     "Section": "67 L",
@@ -405,11 +438,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "TAB",
     "Section": "67 L",
@@ -417,11 +451,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "FAN",
     "Section": "67 M",
@@ -429,11 +464,12 @@
     "Seat(s)": "2",
     "Total": "49",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "FAN",
     "Section": "67 M",
@@ -441,11 +477,12 @@
     "Seat(s)": "24",
     "Total": "49",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "FAN",
     "Section": "67 M",
@@ -453,11 +490,12 @@
     "Seat(s)": "23",
     "Total": "49",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "AAKA",
     "Section": "67 N",
@@ -465,11 +503,12 @@
     "Seat(s)": "1",
     "Total": "49",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "AAKA",
     "Section": "67 N",
@@ -477,11 +516,12 @@
     "Seat(s)": "24",
     "Total": "49",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "AAKA",
     "Section": "67 N",
@@ -489,11 +529,12 @@
     "Seat(s)": "24",
     "Total": "49",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "MJA",
     "Section": "67 O",
@@ -501,11 +542,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "MJA",
     "Section": "67 O",
@@ -513,11 +555,12 @@
     "Seat(s)": "26",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SAJ",
     "Section": "67 P",
@@ -525,11 +568,12 @@
     "Seat(s)": "2",
     "Total": "49",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "SAJ",
     "Section": "67 P",
@@ -537,11 +581,12 @@
     "Seat(s)": "12",
     "Total": "49",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE213",
+    "Department": "CSE",
+    "Course ID": "CSE213",
     "Course Title": "Algorithms",
     "Tech. Int.": "JHJ",
     "Section": "67 Q",
@@ -549,11 +594,12 @@
     "Seat(s)": "13",
     "Total": "48",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "JHJ",
     "Section": "67 Q",
@@ -561,11 +607,12 @@
     "Seat(s)": "23",
     "Total": "48",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SMC",
     "Section": "66 B",
@@ -573,11 +620,12 @@
     "Seat(s)": "1",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SMC",
     "Section": "66 B",
@@ -585,11 +633,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SMC",
     "Section": "66 B",
@@ -597,11 +646,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SMC",
     "Section": "66 B",
@@ -609,11 +659,12 @@
     "Seat(s)": "1",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "MAI",
     "Section": "66 C",
@@ -621,11 +672,12 @@
     "Seat(s)": "23",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "MAI",
     "Section": "66 C",
@@ -633,11 +685,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "MAI",
     "Section": "66 C",
@@ -645,11 +698,12 @@
     "Seat(s)": "4",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SMC",
     "Section": "66 D",
@@ -657,11 +711,12 @@
     "Seat(s)": "26",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SMC",
     "Section": "66 D",
@@ -669,11 +724,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SMC",
     "Section": "66 D",
@@ -681,11 +737,12 @@
     "Seat(s)": "1",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SHD",
     "Section": "66 E",
@@ -693,11 +750,12 @@
     "Seat(s)": "23",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SHD",
     "Section": "66 E",
@@ -705,11 +763,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SHD",
     "Section": "66 E",
@@ -717,11 +776,12 @@
     "Seat(s)": "3",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "MHK",
     "Section": "66 F",
@@ -729,11 +789,12 @@
     "Seat(s)": "21",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "MHK",
     "Section": "66 F",
@@ -741,11 +802,12 @@
     "Seat(s)": "30",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SMC",
     "Section": "66 G",
@@ -753,11 +815,12 @@
     "Seat(s)": "3",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SMC",
     "Section": "66 G",
@@ -765,11 +828,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SMC",
     "Section": "66 G",
@@ -777,11 +841,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "EHL",
     "Section": "66 H",
@@ -789,11 +854,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "EHL",
     "Section": "66 H",
@@ -801,11 +867,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "EHL",
     "Section": "66 H",
@@ -813,11 +880,12 @@
     "Seat(s)": "3",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SMA",
     "Section": "66 I",
@@ -825,11 +893,12 @@
     "Seat(s)": "25",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SMA",
     "Section": "66 I",
@@ -837,11 +906,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SMA",
     "Section": "66 I",
@@ -849,11 +919,12 @@
     "Seat(s)": "2",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "KHR",
     "Section": "66 J",
@@ -861,11 +932,12 @@
     "Seat(s)": "22",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "KHR",
     "Section": "66 J",
@@ -873,11 +945,12 @@
     "Seat(s)": "28",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SMA",
     "Section": "66 K",
@@ -885,11 +958,12 @@
     "Seat(s)": "19",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SMA",
     "Section": "66 K",
@@ -897,11 +971,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SMA",
     "Section": "66 K",
@@ -909,11 +984,12 @@
     "Seat(s)": "8",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SHD",
     "Section": "66 L",
@@ -921,11 +997,12 @@
     "Seat(s)": "16",
     "Total": "52",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SHD",
     "Section": "66 L",
@@ -933,11 +1010,12 @@
     "Seat(s)": "24",
     "Total": "52",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SHD",
     "Section": "66 L",
@@ -945,11 +1023,12 @@
     "Seat(s)": "12",
     "Total": "52",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "UYH",
     "Section": "66 M",
@@ -957,11 +1036,12 @@
     "Seat(s)": "12",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "UYH",
     "Section": "66 M",
@@ -969,11 +1049,12 @@
     "Seat(s)": "39",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SHD",
     "Section": "66 N",
@@ -981,11 +1062,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SHD",
     "Section": "66 N",
@@ -993,11 +1075,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "SHD",
     "Section": "66 N",
@@ -1005,11 +1088,12 @@
     "Seat(s)": "3",
     "Total": "51",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "UYH",
     "Section": "66 O",
@@ -1017,11 +1101,12 @@
     "Seat(s)": "21",
     "Total": "48",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "UYH",
     "Section": "66 O",
@@ -1029,11 +1114,12 @@
     "Seat(s)": "23",
     "Total": "48",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "UYH",
     "Section": "66 O",
@@ -1041,11 +1127,12 @@
     "Seat(s)": "4",
     "Total": "48",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "JNT",
     "Section": "66 P",
@@ -1053,11 +1140,12 @@
     "Seat(s)": "20",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "JNT",
     "Section": "66 P",
@@ -1065,11 +1153,12 @@
     "Seat(s)": "26",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "JNT",
     "Section": "66 P",
@@ -1077,11 +1166,12 @@
     "Seat(s)": "4",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE215",
+    "Department": "CSE",
+    "Course ID": "CSE215",
     "Course Title": "Electronic Devices and",
     "Tech. Int.": "JNT",
     "Section": "66 Q",
@@ -1089,11 +1179,12 @@
     "Seat(s)": "8",
     "Total": "50",
     "Date": "",
-    "Slot": "A"
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "FZA",
     "Section": "69 A",
@@ -1101,11 +1192,12 @@
     "Seat(s)": "27",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "FZA",
     "Section": "69 A",
@@ -1113,11 +1205,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "NNM",
     "Section": "69 B",
@@ -1125,11 +1218,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "NNM",
     "Section": "69 B",
@@ -1137,11 +1231,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "NNM",
     "Section": "69 B",
@@ -1149,11 +1244,12 @@
     "Seat(s)": "3",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "ACC",
     "Section": "69 C",
@@ -1161,11 +1257,12 @@
     "Seat(s)": "21",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "ACC",
     "Section": "69 C",
@@ -1173,11 +1270,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "ACC",
     "Section": "69 C",
@@ -1185,11 +1283,12 @@
     "Seat(s)": "6",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "ACC",
     "Section": "69 D",
@@ -1197,11 +1296,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "ACC",
     "Section": "69 D",
@@ -1209,11 +1309,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "ACC",
     "Section": "69 D",
@@ -1221,11 +1322,12 @@
     "Seat(s)": "2",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "NNM",
     "Section": "69 E",
@@ -1233,11 +1335,12 @@
     "Seat(s)": "22",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "NNM",
     "Section": "69 E",
@@ -1245,11 +1348,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "NNM",
     "Section": "69 E",
@@ -1257,11 +1361,12 @@
     "Seat(s)": "5",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "FFN",
     "Section": "69 F",
@@ -1269,11 +1374,12 @@
     "Seat(s)": "19",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "FFN",
     "Section": "69 F",
@@ -1281,11 +1387,12 @@
     "Seat(s)": "32",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MB",
     "Section": "69 G",
@@ -1293,11 +1400,12 @@
     "Seat(s)": "1",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MB",
     "Section": "69 G",
@@ -1305,11 +1413,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MB",
     "Section": "69 G",
@@ -1317,11 +1426,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MB",
     "Section": "69 G",
@@ -1329,11 +1439,12 @@
     "Seat(s)": "2",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "FFN",
     "Section": "69 H",
@@ -1341,11 +1452,12 @@
     "Seat(s)": "22",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "FFN",
     "Section": "69 H",
@@ -1353,11 +1465,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "FFN",
     "Section": "69 H",
@@ -1365,11 +1478,12 @@
     "Seat(s)": "5",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MB",
     "Section": "69 I",
@@ -1377,11 +1491,12 @@
     "Seat(s)": "23",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MB",
     "Section": "69 I",
@@ -1389,11 +1504,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MB",
     "Section": "69 I",
@@ -1401,11 +1517,12 @@
     "Seat(s)": "3",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "TAB",
     "Section": "69 J",
@@ -1413,11 +1530,12 @@
     "Seat(s)": "21",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "TAB",
     "Section": "69 J",
@@ -1425,11 +1543,12 @@
     "Seat(s)": "30",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MA",
     "Section": "69 K",
@@ -1437,11 +1556,12 @@
     "Seat(s)": "17",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MA",
     "Section": "69 K",
@@ -1449,11 +1569,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MA",
     "Section": "69 K",
@@ -1461,11 +1582,12 @@
     "Seat(s)": "10",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "DRAR",
     "Section": "69 L",
@@ -1473,11 +1595,12 @@
     "Seat(s)": "14",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "DRAR",
     "Section": "69 L",
@@ -1485,11 +1608,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "DRAR",
     "Section": "69 L",
@@ -1497,11 +1621,12 @@
     "Seat(s)": "13",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MHS",
     "Section": "69 M",
@@ -1509,11 +1634,12 @@
     "Seat(s)": "11",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MHS",
     "Section": "69 M",
@@ -1521,11 +1647,12 @@
     "Seat(s)": "39",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MHS",
     "Section": "69 M",
@@ -1533,11 +1660,12 @@
     "Seat(s)": "1",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MHD",
     "Section": "69 N",
@@ -1545,11 +1673,12 @@
     "Seat(s)": "23",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MHD",
     "Section": "69 N",
@@ -1557,11 +1686,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MHD",
     "Section": "69 N",
@@ -1569,11 +1699,12 @@
     "Seat(s)": "4",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MFZ",
     "Section": "69 O",
@@ -1581,11 +1712,12 @@
     "Seat(s)": "20",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MFZ",
     "Section": "69 O",
@@ -1593,11 +1725,12 @@
     "Seat(s)": "23",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MFZ",
     "Section": "69 O",
@@ -1605,11 +1738,12 @@
     "Seat(s)": "7",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MHS",
     "Section": "69 P",
@@ -1617,11 +1751,12 @@
     "Seat(s)": "17",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "MHS",
     "Section": "69 P",
@@ -1629,11 +1764,12 @@
     "Seat(s)": "26",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "RAK",
     "Section": "69 Q",
@@ -1641,11 +1777,12 @@
     "Seat(s)": "16",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "IPK",
     "Section": "69 R",
@@ -1653,11 +1790,12 @@
     "Seat(s)": "-L",
     "Total": "14",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "IPK",
     "Section": "69 R",
@@ -1665,11 +1803,12 @@
     "Seat(s)": "12",
     "Total": "14",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "IPK",
     "Section": "69 S",
@@ -1677,11 +1816,12 @@
     "Seat(s)": "13",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "IPK",
     "Section": "69 S",
@@ -1689,11 +1829,12 @@
     "Seat(s)": "25",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "IPK",
     "Section": "69 S",
@@ -1701,11 +1842,12 @@
     "Seat(s)": "13",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "SHN",
     "Section": "69 T",
@@ -1713,11 +1855,12 @@
     "Seat(s)": "12",
     "Total": "52",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "SHN",
     "Section": "69 T",
@@ -1725,11 +1868,12 @@
     "Seat(s)": "25",
     "Total": "52",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE112",
+    "Department": "CSE",
+    "Course ID": "CSE112",
     "Course Title": "Computer Fundamentals",
     "Tech. Int.": "SHN",
     "Section": "69 T",
@@ -1737,11 +1881,12 @@
     "Seat(s)": "15",
     "Total": "52",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "AAK",
     "Section": "63 A",
@@ -1749,11 +1894,12 @@
     "Seat(s)": "18",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "AAK",
     "Section": "63 A",
@@ -1761,11 +1907,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "AAK",
     "Section": "63 A",
@@ -1773,11 +1920,12 @@
     "Seat(s)": "9",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "SAK",
     "Section": "63 B",
@@ -1785,11 +1933,12 @@
     "Seat(s)": "15",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "SAK",
     "Section": "63 B",
@@ -1797,11 +1946,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "SAK",
     "Section": "63 B",
@@ -1809,11 +1959,12 @@
     "Seat(s)": "11",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "SAK",
     "Section": "63 C",
@@ -1821,11 +1972,12 @@
     "Seat(s)": "13",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "SAK",
     "Section": "63 C",
@@ -1833,11 +1985,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "SAK",
     "Section": "63 C",
@@ -1845,11 +1998,12 @@
     "Seat(s)": "14",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "SN",
     "Section": "63 D",
@@ -1857,11 +2011,12 @@
     "Seat(s)": "10",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "SN",
     "Section": "63 D",
@@ -1869,11 +2024,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "SN",
     "Section": "63 D",
@@ -1881,11 +2037,12 @@
     "Seat(s)": "17",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MA",
     "Section": "63 E",
@@ -1893,11 +2050,12 @@
     "Seat(s)": "7",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MA",
     "Section": "63 E",
@@ -1905,11 +2063,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MA",
     "Section": "63 E",
@@ -1917,11 +2076,12 @@
     "Seat(s)": "19",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "AAK",
     "Section": "63 F",
@@ -1929,11 +2089,12 @@
     "Seat(s)": "5",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "AAK",
     "Section": "63 F",
@@ -1941,11 +2102,12 @@
     "Seat(s)": "22",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "AAK",
     "Section": "63 F",
@@ -1953,11 +2115,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MA",
     "Section": "63 G",
@@ -1965,11 +2128,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MA",
     "Section": "63 G",
@@ -1977,11 +2141,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MA",
     "Section": "63 G",
@@ -1989,11 +2154,12 @@
     "Seat(s)": "2",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "ALM",
     "Section": "63 H",
@@ -2001,11 +2167,12 @@
     "Seat(s)": "22",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "ALM",
     "Section": "63 H",
@@ -2013,11 +2180,12 @@
     "Seat(s)": "20",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "ALM",
     "Section": "63 H",
@@ -2025,11 +2193,12 @@
     "Seat(s)": "9",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "ALM",
     "Section": "63 I",
@@ -2037,11 +2206,12 @@
     "Seat(s)": "15",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "ALM",
     "Section": "63 I",
@@ -2049,11 +2219,12 @@
     "Seat(s)": "24",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "ALM",
     "Section": "63 I",
@@ -2061,11 +2232,12 @@
     "Seat(s)": "11",
     "Total": "50",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MMRN",
     "Section": "63 J",
@@ -2073,11 +2245,12 @@
     "Seat(s)": "20",
     "Total": "52",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MMRN",
     "Section": "63 J",
@@ -2085,11 +2258,12 @@
     "Seat(s)": "24",
     "Total": "52",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MMRN",
     "Section": "63 J",
@@ -2097,11 +2271,12 @@
     "Seat(s)": "8",
     "Total": "52",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MRA",
     "Section": "63 K",
@@ -2109,11 +2284,12 @@
     "Seat(s)": "16",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MRA",
     "Section": "63 K",
@@ -2121,11 +2297,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MRA",
     "Section": "63 K",
@@ -2133,11 +2310,12 @@
     "Seat(s)": "11",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MRA",
     "Section": "63 L",
@@ -2145,11 +2323,12 @@
     "Seat(s)": "13",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MRA",
     "Section": "63 L",
@@ -2157,11 +2336,12 @@
     "Seat(s)": "26",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MRA",
     "Section": "63 L",
@@ -2169,11 +2349,12 @@
     "Seat(s)": "12",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MIS",
     "Section": "63 M",
@@ -2181,11 +2362,12 @@
     "Seat(s)": "12",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MIS",
     "Section": "63 M",
@@ -2193,11 +2375,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "MIS",
     "Section": "63 M",
@@ -2205,11 +2388,12 @@
     "Seat(s)": "15",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "FFN",
     "Section": "63 N",
@@ -2217,11 +2401,12 @@
     "Seat(s)": "9",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "FFN",
     "Section": "63 N",
@@ -2229,11 +2414,12 @@
     "Seat(s)": "24",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "FFN",
     "Section": "63 N",
@@ -2241,11 +2427,12 @@
     "Seat(s)": "18",
     "Total": "51",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "SAL",
     "Section": "63 O",
@@ -2253,11 +2440,12 @@
     "Seat(s)": "6",
     "Total": "11",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   },
   {
-    "Dept.": "CSE",
-    "ID": "CSE411",
+    "Department": "CSE",
+    "Course ID": "CSE411",
     "Course Title": "Artificial Intelligence",
     "Tech. Int.": "SAL",
     "Section": "63 O",
@@ -2265,6 +2453,7 @@
     "Seat(s)": "5",
     "Total": "11",
     "Date": "",
-    "Slot": "B"
+    "Slot": "B",
+    "Time": "11:30 AM - 01:00 PM"
   }
 ]
