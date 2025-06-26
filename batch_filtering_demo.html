@@ -5,14 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batch Filtering Demo</title>
     <style>
-        body { font-family: Arial, sans-serif; padding: 20px; max-width: 800px; margin: 0 auto; }
-        .demo { background: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px 0; }
-        .highlight { background: #e3f2fd; padding: 10px; border-left: 4px solid #2196f3; margin: 10px 0; }
-        code { background: #f1f1f1; padding: 2px 6px; border-radius: 3px; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            padding: 20px; 
+            max-width: 900px; 
+            margin: 0 auto; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+            padding: 20px 0;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .header .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+        .demo { 
+            background: white; 
+            padding: 30px; 
+            border-radius: 12px; 
+            margin: 20px 0; 
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+        .highlight { 
+            background: #e3f2fd; 
+            padding: 15px; 
+            border-left: 4px solid #2196f3; 
+            margin: 15px 0; 
+            border-radius: 6px;
+        }
+        code { 
+            background: #f1f1f1; 
+            padding: 3px 8px; 
+            border-radius: 4px; 
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        .btn-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+        .btn-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
     </style>
 </head>
 <body>
-    <h1>🎯 DIU Exam Routine - Advanced Filtering Features</h1>
+    <div class="header">
+        <h1>🎯 DIU Exam Routine</h1>
+        <p class="subtitle">Advanced Filtering Features Demo</p>
+    </div>
     
     <div class="demo">
         <h2>✨ New Features Added: Comprehensive Filtering System</h2>
@@ -84,6 +144,8 @@
         </div>
     </div>
     
-    <p><a href="index.html" style="background: #2196f3; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">🔗 Open DIU Exam Routine Website</a></p>
+    <div style="text-align: center; margin-top: 30px;">
+        <a href="index.html" class="btn-link">🔗 Open DIU Exam Routine Website</a>
+    </div>
 </body>
 </html>

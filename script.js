@@ -310,11 +310,10 @@ function createSessionHTML(sessionKey, sessionData) {
             </div>
             
             <div class="room-info">
-                <strong>Room Allocation:</strong>
                 ${rooms.map(room => `
                     <div class="room-details">
-                        <span class="room-number">Room ${room.roomNo}</span>
-                        <span class="seat-info">${room.seats} seats</span>
+                        <span class="room-number">${room.roomNo}</span>
+                        <span class="seat-info">${room.seats}</span>
                     </div>
                 `).join('')}
             </div>
