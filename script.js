@@ -11,24 +11,40 @@ document.addEventListener('DOMContentLoaded', function() {
 // Load exam data from JSON file
 async function loadExamData() {
     try {
-        const response = await fetch('media/exam_routine.json');
+        // Try to load processed data first, fallback to original if not available
+        let response;
+        try {
+            response = await fetch('media/processed_exam_routine.json');
+            if (!response.ok) throw new Error('Processed file not found');
+            console.log('✅ Loading processed exam data...');
+        } catch (e) {
+            console.log('📁 Loading original exam data...');
+            response = await fetch('media/exam_routine.json');
+        }
+        
         examData = await response.json();
         filteredData = [...examData];
         
+        populateBatchFilter();
         populateSectionFilter();
+        populateDateFilter();
         displayExamRoutine(filteredData);
     } catch (error) {
         console.error('Error loading exam data:', error);
-        showError('Failed to load exam routine data.');
+        showError('Failed to load exam routine data. Please check if the JSON file exists in the media folder.');
     }
 }
 
 // Setup event listeners
 function setupEventListeners() {
+    const batchFilter = document.getElementById('batchFilter');
     const sectionFilter = document.getElementById('sectionFilter');
+    const dateFilter = document.getElementById('dateFilter');
     const courseSearch = document.getElementById('courseSearch');
     
+    batchFilter.addEventListener('change', onBatchChange);
     sectionFilter.addEventListener('change', filterData);
+    dateFilter.addEventListener('change', filterData);
     courseSearch.addEventListener('input', debounce(filterData, 300));
 }
 
@@ -45,10 +61,56 @@ function debounce(func, wait) {
     };
 }
 
-// Populate section filter dropdown
-function populateSectionFilter() {
+// Extract batch number from section name (e.g., "61 A" -> "61")
+function extractBatch(section) {
+    const match = section.match(/^(\d+)/);
+    return match ? match[1] : '';
+}
+
+// Populate batch filter dropdown
+function populateBatchFilter() {
+    const batchFilter = document.getElementById('batchFilter');
+    const batches = [...new Set(examData.map(exam => extractBatch(exam.Section)))].filter(batch => batch).sort();
+    
+    // Clear existing options except "All Batches"
+    batchFilter.innerHTML = '<option value="">All Batches</option>';
+    
+    batches.forEach(batch => {
+        const option = document.createElement('option');
+        option.value = batch;
+        option.textContent = `Batch ${batch}`;
+        batchFilter.appendChild(option);
+    });
+}
+
+// Handle batch filter change - update sections dropdown
+function onBatchChange() {
+    const selectedBatch = document.getElementById('batchFilter').value;
+    populateSectionFilterByBatch(selectedBatch);
+    
+    // Reset section and date filters when batch changes
+    document.getElementById('sectionFilter').value = '';
+    document.getElementById('dateFilter').value = '';
+    
+    // Apply filtering
+    filterData();
+}
+
+// Populate section filter based on selected batch
+function populateSectionFilterByBatch(selectedBatch) {
     const sectionFilter = document.getElementById('sectionFilter');
-    const sections = [...new Set(examData.map(exam => exam.Section))].sort();
+    let sections;
+    
+    if (selectedBatch) {
+        // Filter sections by batch
+        sections = [...new Set(examData
+            .filter(exam => extractBatch(exam.Section) === selectedBatch)
+            .map(exam => exam.Section))]
+            .sort();
+    } else {
+        // Show all sections
+        sections = [...new Set(examData.map(exam => exam.Section))].sort();
+    }
     
     // Clear existing options except "All Sections"
     sectionFilter.innerHTML = '<option value="">All Sections</option>';
@@ -61,19 +123,56 @@ function populateSectionFilter() {
     });
 }
 
-// Filter data based on section and search criteria
+// Populate section filter dropdown
+function populateSectionFilter() {
+    populateSectionFilterByBatch(''); // Show all sections initially
+}
+
+// Populate date filter dropdown
+function populateDateFilter() {
+    const dateFilter = document.getElementById('dateFilter');
+    const dates = [...new Set(examData.map(exam => exam.Date))].filter(date => date && date.trim());
+    
+    // Sort dates chronologically
+    const sortedDates = dates.sort((a, b) => {
+        const dateA = parseDate(a);
+        const dateB = parseDate(b);
+        return dateA - dateB;
+    });
+    
+    // Clear existing options except "All Dates"
+    dateFilter.innerHTML = '<option value="">All Dates</option>';
+    
+    sortedDates.forEach(date => {
+        const option = document.createElement('option');
+        option.value = date;
+        option.textContent = formatDate(date);
+        dateFilter.appendChild(option);
+    });
+}
+
+// Filter data based on batch, section, date and search criteria
 function filterData() {
+    const batchFilter = document.getElementById('batchFilter').value;
     const sectionFilter = document.getElementById('sectionFilter').value;
+    const dateFilter = document.getElementById('dateFilter').value;
     const searchTerm = document.getElementById('courseSearch').value.toLowerCase();
     
     filteredData = examData.filter(exam => {
+        const matchesBatch = !batchFilter || extractBatch(exam.Section) === batchFilter;
         const matchesSection = !sectionFilter || exam.Section === sectionFilter;
+        const matchesDate = !dateFilter || exam.Date === dateFilter;
+        
+        // Enhanced search: course title, ID, teacher, section, and batch
         const matchesSearch = !searchTerm || 
             exam['Course Title'].toLowerCase().includes(searchTerm) ||
             exam.ID.toLowerCase().includes(searchTerm) ||
-            exam['Tech. Int.'].toLowerCase().includes(searchTerm);
+            exam['Tech. Int.'].toLowerCase().includes(searchTerm) ||
+            exam.Section.toLowerCase().includes(searchTerm) ||
+            extractBatch(exam.Section).includes(searchTerm) ||
+            `batch ${extractBatch(exam.Section)}`.includes(searchTerm);
         
-        return matchesSection && matchesSearch;
+        return matchesBatch && matchesSection && matchesDate && matchesSearch;
     });
     
     displayExamRoutine(filteredData);
@@ -137,11 +236,13 @@ function formatDate(dateString) {
 function createDateGroupHTML(date, exams) {
     const formattedDate = formatDate(date);
     const examsBySession = groupExamsBySession(exams);
+    const isToday = isCurrentDate(date);
     
     return `
-        <div class="date-group">
+        <div class="date-group ${isToday ? 'current-date' : ''}">
             <div class="date-header">
                 ${formattedDate}
+                ${isToday ? '<span class="today-badge">TODAY</span>' : ''}
             </div>
             <div class="exams-grid">
                 ${Object.entries(examsBySession).map(([session, sessionExams]) => 
@@ -235,6 +336,16 @@ function showError(message) {
 // Utility function to get unique values from array
 function getUniqueValues(array, key) {
     return [...new Set(array.map(item => item[key]))];
+}
+
+// Check if a date string matches today's date
+function isCurrentDate(dateString) {
+    const examDate = parseDate(dateString);
+    const today = new Date();
+    
+    return examDate.getDate() === today.getDate() &&
+           examDate.getMonth() === today.getMonth() &&
+           examDate.getFullYear() === today.getFullYear();
 }
 
 // Add smooth scrolling for better UX

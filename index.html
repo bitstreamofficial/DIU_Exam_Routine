@@ -18,14 +18,26 @@
 
         <div class="controls">
             <div class="filter-section">
+                <label for="batchFilter">Filter by Batch:</label>
+                <select id="batchFilter">
+                    <option value="">All Batches</option>
+                </select>
+            </div>
+            <div class="filter-section">
                 <label for="sectionFilter">Filter by Section:</label>
                 <select id="sectionFilter">
                     <option value="">All Sections</option>
                 </select>
             </div>
+            <div class="filter-section">
+                <label for="dateFilter">Filter by Date:</label>
+                <select id="dateFilter">
+                    <option value="">All Dates</option>
+                </select>
+            </div>
             <div class="search-section">
-                <label for="courseSearch">Search Course:</label>
-                <input type="text" id="courseSearch" placeholder="Search by course title or ID...">
+                <label for="courseSearch">Search:</label>
+                <input type="text" id="courseSearch" placeholder="Search by course, ID, teacher, or batch...">
             </div>
         </div>
 
