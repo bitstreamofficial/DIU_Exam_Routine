@@ -441,13 +441,13 @@ footer a:hover {
 
 /* Current Date Highlighting */
 .current-date {
-    border: 3px solid #f39c12;
-    box-shadow: 0 8px 25px rgba(243, 156, 18, 0.3);
-    animation: pulse 2s infinite;
+    border: 3px solid #27ae60;
+    box-shadow: 0 8px 25px rgba(39, 174, 96, 0.4);
+    animation: pulse-green 2s infinite;
 }
 
 .current-date .date-header {
-    background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+    background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
     position: relative;
 }
 
@@ -465,6 +465,18 @@ footer a:hover {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+@keyframes pulse-green {
+    0% {
+        box-shadow: 0 8px 25px rgba(39, 174, 96, 0.4);
+    }
+    50% {
+        box-shadow: 0 8px 25px rgba(39, 174, 96, 0.7);
+    }
+    100% {
+        box-shadow: 0 8px 25px rgba(39, 174, 96, 0.4);
+    }
 }
 
 @keyframes pulse {
