@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIU Exam Routine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DIU Exam Routine</h1>
+            <p class="subtitle">Daffodil International University - Exam Schedule</p>
+        </header>
+
+        <div class="controls">
+            <div class="filter-section">
+                <label for="sectionFilter">Filter by Section:</label>
+                <select id="sectionFilter">
+                    <option value="">All Sections</option>
+                </select>
+            </div>
+            <div class="search-section">
+                <label for="courseSearch">Search Course:</label>
+                <input type="text" id="courseSearch" placeholder="Search by course title or ID...">
+            </div>
+        </div>
+
+        <div id="routineContainer" class="routine-container">
+            <!-- Exam routine will be populated here -->
+        </div>
+
+        <div id="noResults" class="no-results" style="display: none;">
+            <p>No exams found for the selected criteria.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
