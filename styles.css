@@ -557,7 +557,91 @@ footer a:hover {
     }
 }
 
-/* Responsive Design */
+/* Exam Resources Section */
+.exam-resources {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.resource-item {
+    background: linear-gradient(135deg, #f8f9ff 0%, #f0f4ff 100%);
+    border: 1px solid rgba(102, 126, 234, 0.1);
+    border-radius: 8px;
+    padding: 12px;
+    transition: all 0.2s ease;
+}
+
+.resource-item:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+}
+
+.resource-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+.resource-icon {
+    font-size: 1.1rem;
+}
+
+.resource-label {
+    font-weight: 600;
+    color: #667eea;
+    font-size: 0.9rem;
+}
+
+.resource-content {
+    margin-left: 22px;
+}
+
+.resource-link {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 4px 8px;
+    background: rgba(52, 152, 219, 0.1);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    display: inline-block;
+}
+
+.resource-link:hover {
+    background: rgba(52, 152, 219, 0.2);
+    transform: translateY(-1px);
+}
+
+.resource-na {
+    color: #7f8c8d;
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+/* Mobile responsive for resources */
+@media (max-width: 768px) {
+    .exam-resources {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+    
+    .resource-item {
+        padding: 10px;
+    }
+    
+    .resource-label {
+        font-size: 0.85rem;
+    }
+    
+    .resource-link {
+        font-size: 0.8rem;
+    }
+}
+
 @media (max-width: 1200px) {
     .controls {
         grid-template-columns: 1fr 1fr 2fr;

@@ -10,7 +10,9 @@
     "Total": "49",
     "Date": "28-06-2025",
     "Slot": "A",
-    "Time": "09:00 AM - 10:30 AM"
+    "Time": "09:00 AM - 10:30 AM",
+    "Syllabus": "https://example.com/syllabus/cse414",
+    "Notes": "https://example.com/notes/cse414"
   },
   {
     "Department": "CSE",

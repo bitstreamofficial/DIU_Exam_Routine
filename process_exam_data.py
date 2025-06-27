@@ -117,7 +117,9 @@ def clean_exam_data(exam_data):
             "Total": str(exam.get("Total", "")).strip() if exam.get("Total") else "",
             "Date": standardize_date(exam.get("Date", "")),
             "Time": exam.get("Time", "").strip(),
-            "Slot": exam.get("Slot", "").strip()
+            "Slot": exam.get("Slot", "").strip(),
+            "Syllabus": exam.get("Syllabus", "").strip(),
+            "Notes": exam.get("Notes", "").strip()
         }
         cleaned_data.append(cleaned_exam)
     
@@ -148,7 +150,9 @@ def group_exams_by_date_and_course(exam_data):
                 "Date": exam["Date"],
                 "Total": exam["Total"] or "",
                 "Time": exam["Time"],
-                "Slot": exam["Slot"]
+                "Slot": exam["Slot"],
+                "Syllabus": exam["Syllabus"],
+                "Notes": exam["Notes"]
             }
         
         # Add room information
@@ -198,7 +202,9 @@ def convert_to_flat_array(grouped_data):
                     "Total": course_info["Total"] if i == 0 else "",  # Only show total on first room
                     "Date": course_info["Date"],
                     "Time": course_info["Time"] if i == 0 else "",  # Only show time on first room
-                    "Slot": course_info["Slot"] if i == 0 else ""   # Only show slot on first room
+                    "Slot": course_info["Slot"] if i == 0 else "",   # Only show slot on first room
+                    "Syllabus": course_info["Syllabus"] if i == 0 else "",  # Only show syllabus on first room
+                    "Notes": course_info["Notes"] if i == 0 else ""         # Only show notes on first room
                 })
     
     return result

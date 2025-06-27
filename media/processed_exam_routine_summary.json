@@ -9,7 +9,7 @@
   "date_range": {
     "start": "28-06-2025",
     "end": "05-07-2025",
-    "total_days": 6
+    "total_days": 7
   },
   "sections": [
     "60 A",
@@ -359,8 +359,8 @@
     "PHY101",
     "STA101"
   ],
-  "last_updated": "2025-06-27T03:39:08.033622",
-  "processed_at": "2025-06-27 03:39:08",
+  "last_updated": "2025-06-27T14:18:30.920766",
+  "processed_at": "2025-06-27 14:18:30",
   "input_folder": "media",
   "output_file": "media/processed_exam_routine.json"
 }

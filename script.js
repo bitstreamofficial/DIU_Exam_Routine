@@ -320,6 +320,27 @@ function createSessionHTML(sessionKey, sessionData) {
                     </div>
                 `).join('')}
             </div>
+            
+            <div class="exam-resources">
+                <div class="resource-item">
+                    <div class="resource-header">
+                        <span class="resource-icon">📚</span>
+                        <span class="resource-label">Syllabus</span>
+                    </div>
+                    <div class="resource-content">
+                        ${course.Syllabus ? `<a href="${course.Syllabus}" target="_blank" class="resource-link">View Syllabus</a>` : '<span class="resource-na">Not Available</span>'}
+                    </div>
+                </div>
+                <div class="resource-item">
+                    <div class="resource-header">
+                        <span class="resource-icon">📝</span>
+                        <span class="resource-label">Notes</span>
+                    </div>
+                    <div class="resource-content">
+                        ${course.Notes ? `<a href="${course.Notes}" target="_blank" class="resource-link">View Notes</a>` : '<span class="resource-na">Not Available</span>'}
+                    </div>
+                </div>
+            </div>
         </div>
     `;
 }
