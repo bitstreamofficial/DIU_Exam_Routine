@@ -2,8 +2,6 @@
 
 A modern, responsive website for displaying DIU exam routines with filtering capabilities and standardized section names.
 
-🔗 Live Now: https://diu-exam-routine.vercel.app
-
 ## Features
 
 - 📅 **Date-wise grouping**: Exams are organized by date for easy navigation
