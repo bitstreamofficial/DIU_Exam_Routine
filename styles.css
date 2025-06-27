@@ -290,6 +290,17 @@ select:focus, input[type="text"]:focus {
     font-weight: 500;
 }
 
+.batch-tag {
+    display: inline-block;
+    background: linear-gradient(135deg, #f39c12, #e67e22);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(243, 156, 18, 0.3);
+}
+
 .teacher-tag {
     display: inline-block;
     background: linear-gradient(135deg, #2ecc71, #27ae60);
@@ -555,6 +566,88 @@ footer a:hover {
     60% {
         transform: translateY(-2px);
     }
+}
+
+/* Department Selector */
+.department-selector {
+    margin-bottom: 30px;
+}
+
+.department-tabs {
+    display: flex;
+    gap: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.08);
+    border: 1px solid rgba(0,0,0,0.05);
+    backdrop-filter: blur(10px);
+}
+
+.department-tab {
+    flex: 1;
+    background: transparent;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.department-tab:hover {
+    background: rgba(102, 126, 234, 0.1);
+    color: #667eea;
+    transform: translateY(-1px);
+}
+
+.department-tab.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    transform: translateY(-2px);
+}
+
+.department-tab.active:hover {
+    background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+    color: white;
+}
+
+.tab-icon {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.department-tab.active .tab-icon {
+    transform: scale(1.1);
+}
+
+.tab-text {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Loading state for department switch */
+.department-tab.loading {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.department-tab.loading .tab-icon {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 /* Exam Resources Section */

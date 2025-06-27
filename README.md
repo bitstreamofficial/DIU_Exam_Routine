@@ -28,8 +28,9 @@ DIU_Exam_Routine/
 │   ├── 01_7_2025.json                 # Date-based exam data files
 │   ├── 02_07_2025.json
 │   ├── ... (other date files)
-│   ├── processed_exam_routine.json     # Combined & processed data
-│   ├── processed_exam_routine_summary.json # Processing statistics
+│   ├── cse_processed_exam_routine.json     # Combined & processed CSE data
+│   ├── cse_processed_exam_routine_summary.json # CSE processing statistics
+│   ├── swe_summer_mid.json            # SWE department exam data
 │   └── Bit_Stream_Logo.png            # Logo/favicon
 └── README.md                           # This documentation
 ```
@@ -55,7 +56,7 @@ DIU_Exam_Routine/
 1. Open `data_processor.html` in your browser
 2. Upload your JSON files or paste JSON data
 3. Click "Process Data" to combine and clean
-4. Download the processed file as `processed_exam_routine.json`
+4. Download the processed file as `cse_processed_exam_routine.json`
 5. Place it in the `media/` folder
 6. Open `index.html` in your browser
 

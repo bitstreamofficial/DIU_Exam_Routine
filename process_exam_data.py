@@ -330,7 +330,7 @@ def main():
     
     # Define paths
     media_folder = "media"
-    output_file = "media/processed_exam_routine.json"
+    output_file = "media/cse_processed_exam_routine.json"
     
     # Check if media folder exists
     if not os.path.exists(media_folder):

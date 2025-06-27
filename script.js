@@ -1,29 +1,97 @@
 // Global variables
 let examData = [];
 let filteredData = [];
+let currentDepartment = 'cse'; // Default to CSE
+
+// Department configuration
+const departmentConfig = {
+    cse: {
+        file: 'media/cse_processed_exam_routine.json',
+        name: 'CSE Department',
+        fallback: 'media/exam_routine.json',
+        fieldMapping: {
+            courseId: 'ID',
+            courseTitle: 'Course Title',
+            department: 'Dept.',
+            section: 'Section',
+            teacher: 'Tech. Int.',
+            roomNo: 'Room No',
+            seats: 'Seat(s)',
+            total: 'Total',
+            date: 'Date',
+            time: 'Time',
+            slot: 'Slot',
+            syllabus: 'Syllabus',
+            notes: 'Notes'
+        },
+        displayConfig: {
+            hasSeats: true,
+            hasTeacher: true,
+            hasSection: true,
+            hasTotal: true,
+            hasSyllabus: true,
+            hasNotes: true,
+            groupBySection: true
+        }
+    },
+    swe: {
+        file: 'media/swe_summer_mid.json',
+        name: 'SWE Department',
+        fallback: null,
+        fieldMapping: {
+            courseId: 'Course ID',
+            courseTitle: 'Course Title',
+            department: 'Department',
+            batch: 'Batch',
+            roomNo: 'Room No',
+            date: 'Date',
+            time: 'Time',
+            slot: 'Slot'
+        },
+        displayConfig: {
+            hasSeats: false,
+            hasTeacher: false,
+            hasSection: false,
+            hasTotal: false,
+            hasSyllabus: false,
+            hasNotes: false,
+            hasBatch: true,
+            groupBySection: false
+        }
+    }
+};
 
 // Load and initialize the application
 document.addEventListener('DOMContentLoaded', function() {
     loadExamData();
     setupEventListeners();
+    setupDepartmentSelector();
 });
 
 // Load exam data from JSON file
-async function loadExamData() {
+async function loadExamData(department = currentDepartment) {
     try {
-        // Try to load processed data first, fallback to original if not available
+        const config = departmentConfig[department];
         let response;
+        
         try {
-            response = await fetch('media/processed_exam_routine.json');
-            if (!response.ok) throw new Error('Processed file not found');
-            console.log('✅ Loading processed exam data...');
+            response = await fetch(config.file);
+            if (!response.ok) throw new Error(`${config.name} file not found`);
+            console.log(`✅ Loading ${config.name} exam data...`);
         } catch (e) {
-            console.log('📁 Loading original exam data...');
-            response = await fetch('media/exam_routine.json');
+            if (config.fallback) {
+                console.log(`📁 Loading fallback exam data for ${config.name}...`);
+                response = await fetch(config.fallback);
+            } else {
+                throw new Error(`No data available for ${config.name}`);
+            }
         }
         
         examData = await response.json();
         filteredData = [...examData];
+        
+        // Update current department
+        currentDepartment = department;
         
         populateBatchFilter();
         populateSectionFilter();
@@ -31,7 +99,7 @@ async function loadExamData() {
         displayExamRoutine(filteredData);
     } catch (error) {
         console.error('Error loading exam data:', error);
-        showError('Failed to load exam routine data. Please check if the JSON file exists in the media folder.');
+        showError(`Failed to load ${departmentConfig[department]?.name || 'exam'} routine data. Please check if the JSON file exists in the media folder.`);
     }
 }
 
@@ -67,10 +135,23 @@ function extractBatch(section) {
     return match ? match[1] : '';
 }
 
-// Populate batch filter dropdown
+// Populate batch filter dropdown - Dynamic based on department
 function populateBatchFilter() {
     const batchFilter = document.getElementById('batchFilter');
-    const batches = [...new Set(examData.map(exam => extractBatch(exam.Section)))].filter(batch => batch).sort();
+    const config = departmentConfig[currentDepartment];
+    let batches = [];
+    
+    if (config.displayConfig.hasSection) {
+        // For CSE - extract batch from section
+        batches = [...new Set(examData.map(exam => extractBatch(exam[config.fieldMapping.section])))].filter(batch => batch).sort();
+    } else if (config.displayConfig.hasBatch) {
+        // For SWE - use batch field directly
+        batches = [...new Set(examData.map(exam => exam[config.fieldMapping.batch]))].filter(batch => batch && batch !== 'Retake').sort();
+        // Add retake at the end if it exists
+        if (examData.some(exam => exam[config.fieldMapping.batch] === 'Retake')) {
+            batches.push('Retake');
+        }
+    }
     
     // Clear existing options except "All Batches"
     batchFilter.innerHTML = '<option value="">All Batches</option>';
@@ -78,7 +159,9 @@ function populateBatchFilter() {
     batches.forEach(batch => {
         const option = document.createElement('option');
         option.value = batch;
-        option.textContent = `Batch ${batch}`;
+        option.textContent = config.displayConfig.hasBatch ? 
+            (batch === 'Retake' ? 'Retake' : `Batch ${batch}`) : 
+            `Batch ${batch}`;
         batchFilter.appendChild(option);
     });
 }
@@ -96,24 +179,54 @@ function onBatchChange() {
     filterData();
 }
 
-// Populate section filter based on selected batch
+// Populate section filter based on selected batch - Dynamic
 function populateSectionFilterByBatch(selectedBatch) {
     const sectionFilter = document.getElementById('sectionFilter');
-    let sections;
+    const config = departmentConfig[currentDepartment];
+    let sections = [];
     
-    if (selectedBatch) {
-        // Filter sections by batch
-        sections = [...new Set(examData
-            .filter(exam => extractBatch(exam.Section) === selectedBatch)
-            .map(exam => exam.Section))]
-            .sort();
+    if (config.displayConfig.hasSection) {
+        // For CSE department with sections
+        if (selectedBatch) {
+            sections = [...new Set(examData
+                .filter(exam => extractBatch(exam[config.fieldMapping.section]) === selectedBatch)
+                .map(exam => exam[config.fieldMapping.section]))]
+                .sort();
+        } else {
+            sections = [...new Set(examData.map(exam => exam[config.fieldMapping.section]))].sort();
+        }
+    } else if (config.displayConfig.hasBatch) {
+        // For SWE department with batch field
+        if (selectedBatch) {
+            sections = [...new Set(examData
+                .filter(exam => exam[config.fieldMapping.batch] === selectedBatch)
+                .map(exam => exam[config.fieldMapping.courseId]))]
+                .sort();
+        } else {
+            sections = [...new Set(examData.map(exam => exam[config.fieldMapping.courseId]))].sort();
+        }
+        
+        // Change label for SWE
+        sectionFilter.previousElementSibling.textContent = 'Filter by Course:';
     } else {
-        // Show all sections
-        sections = [...new Set(examData.map(exam => exam.Section))].sort();
+        // No section/batch filtering available
+        sectionFilter.style.display = 'none';
+        sectionFilter.previousElementSibling.style.display = 'none';
+        return;
     }
     
-    // Clear existing options except "All Sections"
-    sectionFilter.innerHTML = '<option value="">All Sections</option>';
+    // Show section filter
+    sectionFilter.style.display = 'block';
+    sectionFilter.previousElementSibling.style.display = 'block';
+    
+    // Set appropriate label
+    if (config.displayConfig.hasSection) {
+        sectionFilter.previousElementSibling.textContent = 'Filter by Section:';
+    }
+    
+    // Clear existing options
+    const defaultText = config.displayConfig.hasSection ? 'All Sections' : 'All Courses';
+    sectionFilter.innerHTML = `<option value="">${defaultText}</option>`;
     
     sections.forEach(section => {
         const option = document.createElement('option');
@@ -128,10 +241,11 @@ function populateSectionFilter() {
     populateSectionFilterByBatch(''); // Show all sections initially
 }
 
-// Populate date filter dropdown
+// Populate date filter dropdown - Dynamic
 function populateDateFilter() {
     const dateFilter = document.getElementById('dateFilter');
-    const dates = [...new Set(examData.map(exam => exam.Date))].filter(date => date && date.trim());
+    const config = departmentConfig[currentDepartment];
+    const dates = [...new Set(examData.map(exam => exam[config.fieldMapping.date]))].filter(date => date && date.trim());
     
     // Sort dates chronologically
     const sortedDates = dates.sort((a, b) => {
@@ -158,19 +272,61 @@ function filterData() {
     const dateFilter = document.getElementById('dateFilter').value;
     const searchTerm = document.getElementById('courseSearch').value.toLowerCase();
     
+    const config = departmentConfig[currentDepartment];
+    const mapping = config.fieldMapping;
+    const display = config.displayConfig;
+    
     filteredData = examData.filter(exam => {
-        const matchesBatch = !batchFilter || extractBatch(exam.Section) === batchFilter;
-        const matchesSection = !sectionFilter || exam.Section === sectionFilter;
-        const matchesDate = !dateFilter || exam.Date === dateFilter;
+        // Dynamic batch matching
+        let matchesBatch = true;
+        if (batchFilter) {
+            if (display.hasSection) {
+                // CSE: extract batch from section
+                matchesBatch = extractBatch(exam[mapping.section]) === batchFilter;
+            } else if (display.hasBatch) {
+                // SWE: use batch field directly
+                matchesBatch = exam[mapping.batch] === batchFilter;
+            }
+        }
         
-        // Enhanced search: course title, ID, teacher, section, and batch
-        const matchesSearch = !searchTerm || 
-            exam['Course Title'].toLowerCase().includes(searchTerm) ||
-            exam.ID.toLowerCase().includes(searchTerm) ||
-            exam['Tech. Int.'].toLowerCase().includes(searchTerm) ||
-            exam.Section.toLowerCase().includes(searchTerm) ||
-            extractBatch(exam.Section).includes(searchTerm) ||
-            `batch ${extractBatch(exam.Section)}`.includes(searchTerm);
+        // Dynamic section/course matching
+        let matchesSection = true;
+        if (sectionFilter) {
+            if (display.hasSection) {
+                matchesSection = exam[mapping.section] === sectionFilter;
+            } else if (display.hasBatch) {
+                // For SWE, section filter shows courses
+                matchesSection = exam[mapping.courseId] === sectionFilter;
+            }
+        }
+        
+        // Dynamic date matching
+        const matchesDate = !dateFilter || exam[mapping.date] === dateFilter;
+        
+        // Dynamic search
+        let matchesSearch = true;
+        if (searchTerm) {
+            const courseTitle = exam[mapping.courseTitle]?.toLowerCase() || '';
+            const courseId = exam[mapping.courseId]?.toLowerCase() || '';
+            
+            let searchFields = [courseTitle, courseId];
+            
+            // Add department-specific search fields
+            if (display.hasTeacher && mapping.teacher) {
+                searchFields.push(exam[mapping.teacher]?.toLowerCase() || '');
+            }
+            if (display.hasSection && mapping.section) {
+                searchFields.push(exam[mapping.section]?.toLowerCase() || '');
+                searchFields.push(extractBatch(exam[mapping.section]).toLowerCase());
+                searchFields.push(`batch ${extractBatch(exam[mapping.section])}`.toLowerCase());
+            }
+            if (display.hasBatch && mapping.batch) {
+                searchFields.push(exam[mapping.batch]?.toLowerCase() || '');
+                searchFields.push(`batch ${exam[mapping.batch]}`.toLowerCase());
+            }
+            
+            matchesSearch = searchFields.some(field => field.includes(searchTerm));
+        }
         
         return matchesBatch && matchesSection && matchesDate && matchesSearch;
     });
@@ -204,8 +360,11 @@ function displayExamRoutine(data) {
 
 // Group exams by date
 function groupExamsByDate(data) {
+    const config = departmentConfig[currentDepartment];
+    const dateField = config.fieldMapping.date;
+    
     return data.reduce((groups, exam) => {
-        const date = exam.Date;
+        const date = exam[dateField];
         if (!groups[date]) {
             groups[date] = [];
         }
@@ -255,92 +414,201 @@ function createDateGroupHTML(date, exams) {
 
 // Group exams by course and section for the same session
 function groupExamsBySession(exams) {
+    const config = departmentConfig[currentDepartment];
     const sessions = {};
     
     exams.forEach(exam => {
-        const sessionKey = `${exam.ID}-${exam.Section}`;
+        const courseId = exam[config.fieldMapping.courseId];
+        
+        // Create a session key based on available data
+        // Don't include slot/time in grouping since some entries have empty values
+        let sessionKey;
+        if (config.displayConfig.hasSection) {
+            const section = exam[config.fieldMapping.section];
+            sessionKey = `${courseId}-${section}`;
+        } else if (config.displayConfig.hasBatch) {
+            const batch = exam[config.fieldMapping.batch];
+            sessionKey = `${courseId}-${batch}`;
+        } else {
+            sessionKey = `${courseId}`;
+        }
+        
         if (!sessions[sessionKey]) {
             sessions[sessionKey] = {
                 course: exam,
                 rooms: []
             };
+        } else {
+            // Update course info with the entry that has complete information (time, slot)
+            const currentTime = sessions[sessionKey].course[config.fieldMapping.time];
+            const examTime = exam[config.fieldMapping.time];
+            if (!currentTime && examTime) {
+                sessions[sessionKey].course = exam;
+            }
         }
-        sessions[sessionKey].rooms.push({
-            roomNo: exam['Room No'],
-            seats: exam['Seat(s)'],
-            total: exam.Total
-        });
+        
+        // Add room information
+        const roomInfo = {
+            roomNo: exam[config.fieldMapping.roomNo]
+        };
+        
+        // Add seats if available
+        if (config.displayConfig.hasSeats && exam[config.fieldMapping.seats]) {
+            roomInfo.seats = exam[config.fieldMapping.seats];
+        }
+        
+        // Add total if available
+        if (config.displayConfig.hasTotal && exam[config.fieldMapping.total]) {
+            roomInfo.total = exam[config.fieldMapping.total];
+        }
+        
+        sessions[sessionKey].rooms.push(roomInfo);
     });
     
     return sessions;
 }
 
-// Create HTML for a session (course with multiple rooms)
+// Create HTML for a session (course with multiple rooms) - Dynamic based on department
 function createSessionHTML(sessionKey, sessionData) {
     const { course, rooms } = sessionData;
+    const config = departmentConfig[currentDepartment];
+    const mapping = config.fieldMapping;
+    const display = config.displayConfig;
     
-    return `
-        <div class="exam-card">
-            <div class="course-header">
-                <div class="course-title-row">
-                    <div class="course-title">${course['Course Title']}</div>
-                    <div class="course-id">${course.ID}</div>
-                </div>
-                ${course.Time ? `<div class="exam-time">${course.Time}</div>` : ''}
+    // Get course information dynamically
+    const courseTitle = course[mapping.courseTitle];
+    const courseId = course[mapping.courseId];
+    const department = course[mapping.department];
+    const time = course[mapping.time];
+    
+    // Build details section dynamically
+    let detailsHTML = `
+        <div class="detail-item">
+            <span class="detail-label">Department:</span>
+            <span class="detail-value">${department}</span>
+        </div>
+    `;
+    
+    // Add section if available
+    if (display.hasSection && mapping.section) {
+        const section = course[mapping.section];
+        detailsHTML += `
+            <div class="detail-item">
+                <span class="detail-label">Section:</span>
+                <span class="detail-value">
+                    <span class="section-tag">${section}</span>
+                </span>
             </div>
-            
-            <div class="exam-details">
-                <div class="detail-item">
-                    <span class="detail-label">Department:</span>
-                    <span class="detail-value">${course['Dept.']}</span>
-                </div>
-                <div class="detail-item">
-                    <span class="detail-label">Section:</span>
-                    <span class="detail-value">
-                        <span class="section-tag">${course.Section}</span>
-                    </span>
-                </div>
-                <div class="detail-item">
-                    <span class="detail-label">Teacher:</span>
-                    <span class="detail-value">
-                        <span class="teacher-tag">${course['Tech. Int.']}</span>
-                    </span>
-                </div>
-                <div class="detail-item">
-                    <span class="detail-label">Total Students:</span>
-                    <span class="detail-value">${rooms.find(r => r.total)?.total || 'N/A'}</span>
-                </div>
+        `;
+    }
+    
+    // Add batch if available (for SWE)
+    if (display.hasBatch && mapping.batch) {
+        const batch = course[mapping.batch];
+        detailsHTML += `
+            <div class="detail-item">
+                <span class="detail-label">Batch:</span>
+                <span class="detail-value">
+                    <span class="batch-tag">${batch}</span>
+                </span>
             </div>
-            
-            <div class="room-info">
-                ${rooms.map(room => `
-                    <div class="room-details">
-                        <span class="room-number">${room.roomNo}</span>
-                        <span class="seat-info">${room.seats}</span>
-                    </div>
-                `).join('')}
+        `;
+    }
+    
+    // Add teacher if available
+    if (display.hasTeacher && mapping.teacher) {
+        const teacher = course[mapping.teacher];
+        detailsHTML += `
+            <div class="detail-item">
+                <span class="detail-label">Teacher:</span>
+                <span class="detail-value">
+                    <span class="teacher-tag">${teacher}</span>
+                </span>
             </div>
-            
-            <div class="exam-resources">
+        `;
+    }
+    
+    // Add total students if available
+    if (display.hasTotal) {
+        const total = rooms.find(r => r.total)?.total || 'N/A';
+        detailsHTML += `
+            <div class="detail-item">
+                <span class="detail-label">Total Students:</span>
+                <span class="detail-value">${total}</span>
+            </div>
+        `;
+    }
+    
+    // Build room info dynamically
+    let roomInfoHTML = rooms.map(room => {
+        let roomHTML = `<div class="room-details">
+            <span class="room-number">${room.roomNo}</span>`;
+        
+        if (display.hasSeats && room.seats) {
+            roomHTML += `<span class="seat-info">${room.seats}</span>`;
+        }
+        
+        roomHTML += `</div>`;
+        return roomHTML;
+    }).join('');
+    
+    // Build resources section if available
+    let resourcesHTML = '';
+    if (display.hasSyllabus || display.hasNotes) {
+        resourcesHTML = '<div class="exam-resources">';
+        
+        if (display.hasSyllabus) {
+            const syllabus = course[mapping.syllabus];
+            resourcesHTML += `
                 <div class="resource-item">
                     <div class="resource-header">
                         <span class="resource-icon">📚</span>
                         <span class="resource-label">Syllabus</span>
                     </div>
                     <div class="resource-content">
-                        ${course.Syllabus ? `<a href="${course.Syllabus}" target="_blank" class="resource-link">View Syllabus</a>` : '<span class="resource-na">Not Available</span>'}
+                        ${syllabus ? `<a href="${syllabus}" target="_blank" class="resource-link">View Syllabus</a>` : '<span class="resource-na">Not Available</span>'}
                     </div>
                 </div>
+            `;
+        }
+        
+        if (display.hasNotes) {
+            const notes = course[mapping.notes];
+            resourcesHTML += `
                 <div class="resource-item">
                     <div class="resource-header">
                         <span class="resource-icon">📝</span>
                         <span class="resource-label">Notes</span>
                     </div>
                     <div class="resource-content">
-                        ${course.Notes ? `<a href="${course.Notes}" target="_blank" class="resource-link">View Notes</a>` : '<span class="resource-na">Not Available</span>'}
+                        ${notes ? `<a href="${notes}" target="_blank" class="resource-link">View Notes</a>` : '<span class="resource-na">Not Available</span>'}
                     </div>
                 </div>
+            `;
+        }
+        
+        resourcesHTML += '</div>';
+    }
+    
+    return `
+        <div class="exam-card">
+            <div class="course-header">
+                <div class="course-title-row">
+                    <div class="course-title">${courseTitle}</div>
+                    <div class="course-id">${courseId}</div>
+                </div>
+                ${time ? `<div class="exam-time">${time}</div>` : ''}
             </div>
+            
+            <div class="exam-details">
+                ${detailsHTML}
+            </div>
+            
+            <div class="room-info">
+                ${roomInfoHTML}
+            </div>
+            
+            ${resourcesHTML}
         </div>
     `;
 }
@@ -354,6 +622,55 @@ function showError(message) {
             <p style="color: #7f8c8d;">${message}</p>
         </div>
     `;
+}
+
+// Setup department selector
+function setupDepartmentSelector() {
+    const departmentTabs = document.querySelectorAll('.department-tab');
+    
+    departmentTabs.forEach(tab => {
+        tab.addEventListener('click', async function() {
+            const selectedDepartment = this.getAttribute('data-department');
+            
+            // Don't reload if already selected
+            if (selectedDepartment === currentDepartment) return;
+            
+            // Update active tab
+            departmentTabs.forEach(t => t.classList.remove('active'));
+            this.classList.add('active', 'loading');
+            
+            try {
+                // Clear current data
+                document.getElementById('routineContainer').innerHTML = '<div style="text-align: center; padding: 40px; color: #666;">Loading exam routine...</div>';
+                
+                // Reset filters
+                resetFilters();
+                
+                // Load new department data
+                await loadExamData(selectedDepartment);
+                
+                console.log(`✅ Switched to ${departmentConfig[selectedDepartment].name}`);
+            } catch (error) {
+                console.error('Error switching department:', error);
+                showError(`Failed to load ${departmentConfig[selectedDepartment]?.name || 'department'} data.`);
+                
+                // Revert to previous department tab
+                departmentTabs.forEach(t => t.classList.remove('active'));
+                document.querySelector(`[data-department="${currentDepartment}"]`).classList.add('active');
+            } finally {
+                // Remove loading state
+                this.classList.remove('loading');
+            }
+        });
+    });
+}
+
+// Reset all filters to default state
+function resetFilters() {
+    document.getElementById('batchFilter').value = '';
+    document.getElementById('sectionFilter').value = '';
+    document.getElementById('dateFilter').value = '';
+    document.getElementById('courseSearch').value = '';
 }
 
 // Utility function to get unique values from array
@@ -381,3 +698,5 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     document.head.appendChild(style);
 });
+
+// Helper functions and utilities can be added here
