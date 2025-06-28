@@ -42,24 +42,21 @@ const departmentConfig = {
             courseId: 'Course ID',
             courseTitle: 'Course Title',
             department: 'Department',
-            section: 'Section',
-            teacher: 'Tech. Int.',
+            batch: 'Batch',
             roomNo: 'Room No',
-            seats: 'Seat(s)',
-            total: 'Total',
             date: 'Date',
             time: 'Time',
             slot: 'Slot'
         },
         displayConfig: {
-            hasSeats: true,
-            hasTeacher: true,
-            hasSection: true,
-            hasTotal: true,
+            hasSeats: false,
+            hasTeacher: false,
+            hasSection: false,
+            hasTotal: false,
             hasSyllabus: false,
             hasNotes: false,
-            hasBatch: false,
-            groupBySection: true
+            hasBatch: true,
+            groupBySection: false
         }
     }
 };

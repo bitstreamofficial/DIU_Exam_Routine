@@ -1,0 +1,685 @@
+[
+  {
+    "Department": "SWE",
+    "Course ID": "SE 441",
+    "Course Title": "Software Engineering Professional Ethics",
+    "Room No": "260",
+    "Batch": "37",
+    "Date": "28-06-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 332",
+    "Course Title": "Information System Security",
+    "Room No": "155",
+    "Batch": "38",
+    "Date": "28-06-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 324",
+    "Course Title": "Business Analysis & Communication",
+    "Room No": "45",
+    "Batch": "36",
+    "Date": "28-06-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 333",
+    "Course Title": "Artificial Intelligence",
+    "Room No": "05",
+    "Batch": "Retake",
+    "Date": "28-06-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 333",
+    "Course Title": "Artificial Intelligence",
+    "Room No": "5",
+    "Batch": "Retake",
+    "Date": "28-06-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "ENG 114/ENG 101",
+    "Course Title": "English-1",
+    "Room No": "720",
+    "Batch": "45",
+    "Date": "28-06-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 213",
+    "Course Title": "Digital Electronics & Logic Design",
+    "Room No": "820",
+    "Batch": "43",
+    "Date": "28-06-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "EMP 101",
+    "Course Title": "Employability Skills 360",
+    "Room No": "12",
+    "Batch": "Retake",
+    "Date": "28-06-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 234",
+    "Course Title": "Theory of Computing",
+    "Room No": "720",
+    "Batch": "41",
+    "Date": "28-06-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 312",
+    "Course Title": "Software Quality Assurance & Testing",
+    "Room No": "470",
+    "Batch": "40",
+    "Date": "28-06-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 442",
+    "Course Title": "Management Information System",
+    "Room No": "210",
+    "Batch": "39",
+    "Date": "28-06-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 441",
+    "Course Title": "Software Engineering Professional Ethics",
+    "Room No": "260",
+    "Batch": "37",
+    "Date": "28-06-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 332",
+    "Course Title": "Information System Security",
+    "Room No": "155",
+    "Batch": "38",
+    "Date": "28-06-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 324",
+    "Course Title": "Business Analysis & Communication",
+    "Room No": "45",
+    "Batch": "36",
+    "Date": "28-06-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 333",
+    "Course Title": "Artificial Intelligence",
+    "Room No": "05",
+    "Batch": "Retake",
+    "Date": "28-06-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 333",
+    "Course Title": "Artificial Intelligence",
+    "Room No": "5",
+    "Batch": "Retake",
+    "Date": "28-06-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "ENG 114/ENG 101",
+    "Course Title": "English-1",
+    "Room No": "720",
+    "Batch": "45",
+    "Date": "28-06-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 213",
+    "Course Title": "Digital Electronics & Logic Design",
+    "Room No": "820",
+    "Batch": "43",
+    "Date": "28-06-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "EMP 101",
+    "Course Title": "Employability Skills 360",
+    "Room No": "12",
+    "Batch": "Retake",
+    "Date": "28-06-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 234",
+    "Course Title": "Theory of Computing",
+    "Room No": "720",
+    "Batch": "41",
+    "Date": "28-06-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 312",
+    "Course Title": "Software Quality Assurance & Testing",
+    "Room No": "470",
+    "Batch": "40",
+    "Date": "28-06-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 442",
+    "Course Title": "Management Information System",
+    "Room No": "210",
+    "Batch": "39",
+    "Date": "28-06-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+
+  
+  {
+    "Department": "SWE",
+    "Course ID": "SWE 323",
+    "Course Title": "System Analysis & Design",
+    "Room No": "3",
+    "Batch": "Self Study",
+    "Date": "29-06-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SWE 425",
+    "Course Title": "Telecommunication Engineering with Lab",
+    "Room No": "4",
+    "Batch": "Self Study",
+    "Date": "29-06-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SWE 321",
+    "Course Title": "Data Communication with Lab",
+    "Room No": "2",
+    "Batch": "Self Study",
+    "Date": "29-06-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SWE 311",
+    "Course Title": "Computer Architecture & Organization",
+    "Room No": "2",
+    "Batch": "Self Study",
+    "Date": "29-06-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "PHY",
+    "Course ID": "PHY101",
+    "Course Title": "Physics I",
+    "Room No": "620",
+    "Batch": "44",
+    "Date": "29-06-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SE/SWE",
+    "Course ID": "SE214/ SWE213",
+    "Course Title": "Algorithm Design and Analysis",
+    "Room No": "520",
+    "Batch": "42",
+    "Date": "29-06-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+
+  {
+    "Department": "SWE",
+    "Course ID": "SE 444",
+    "Course Title": "Data Warehouse & Data Mining (Non-Major Only)",
+    "Room No": "210",
+    "Batch": "39, 37",
+    "Date": "30-06-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "DS 331",
+    "Course Title": "Introduction to Data Science and Data Management & Analysis",
+    "Room No": "105",
+    "Batch": "39, 38",
+    "Date": "30-06-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "CS 211",
+    "Course Title": "Cyber Security Fundamentals",
+    "Room No": null,
+    "Batch": "39",
+    "Date": "30-06-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "RE 421",
+    "Course Title": "Robotics process Automation Design & Development",
+    "Room No": "28",
+    "Batch": "39",
+    "Date": "30-06-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 232",
+    "Course Title": "Operating System & System Programming",
+    "Room No": "720",
+    "Batch": "41",
+    "Date": "30-06-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 323",
+    "Course Title": "Software Architecture & Design",
+    "Room No": "470",
+    "Batch": "40",
+    "Date": "30-06-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "DS 421",
+    "Course Title": "Machine Learning Driven Data Analysis I (DS Major)",
+    "Room No": "105",
+    "Batch": "37",
+    "Date": "30-06-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "CS 422",
+    "Course Title": "Digital Forensic",
+    "Room No": "52",
+    "Batch": "37",
+    "Date": "30-06-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "GE 314/BNS 101",
+    "Course Title": "Bangladesh Studies",
+    "Room No": "720",
+    "Batch": "45",
+    "Date": "30-06-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 131",
+    "Course Title": "Data Structure",
+    "Room No": "890",
+    "Batch": "43",
+    "Date": "30-06-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 211",
+    "Course Title": "Object Oriented Design",
+    "Room No": null,
+    "Batch": "Self Study",
+    "Date": "01-07-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 311",
+    "Course Title": "Design Pattern",
+    "Room No": "6",
+    "Batch": "Self Study",
+    "Date": "01-07-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SWE 411",
+    "Course Title": "Computer Networking with Lab",
+    "Room No": "3",
+    "Batch": "Self Study",
+    "Date": "01-07-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 211",
+    "Course Title": "Object Oriented Concepts",
+    "Room No": "6",
+    "Batch": "Self Study",
+    "Date": "01-07-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 212",
+    "Course Title": "Software Requirement Specification",
+    "Room No": "620",
+    "Batch": "44",
+    "Date": "01-07-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 223",
+    "Course Title": "Database Systems",
+    "Room No": "570",
+    "Batch": "42",
+    "Date": "01-07-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 599",
+    "Course Title": "Research Methodology & Scientific Writing/ Open Elective – III (Non-Major Only)",
+    "Room No": "105",
+    "Batch": "39",
+    "Date": "02-07-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 341",
+    "Course Title": "Numerical Analysis (non-major only)",
+    "Room No": "100",
+    "Batch": "38",
+    "Date": "02-07-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "DS 411",
+    "Course Title": "Statistical Data Analysis",
+    "Room No": "105",
+    "Batch": "39, 38",
+    "Date": "02-07-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "CS 418",
+    "Course Title": "Network and Communication Security",
+    "Room No": "52",
+    "Batch": "39",
+    "Date": "02-07-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "RE 331",
+    "Course Title": "Embedded Programming",
+    "Room No": "28",
+    "Batch": "39",
+    "Date": "02-07-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "GE 235",
+    "Course Title": "Principles of Accounting, Business & Economics",
+    "Room No": "720",
+    "Batch": "41",
+    "Date": "02-07-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "GE 324",
+    "Course Title": "Business Analysis & Communication",
+    "Room No": "470",
+    "Batch": "40",
+    "Date": "02-07-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "DS 423",
+    "Course Title": "Machine Learning Driven Data Analysis II and Communicating Data Insights (DS Major)",
+    "Room No": "105",
+    "Batch": "37",
+    "Date": "02-07-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "MAT 102",
+    "Course Title": "Mathematics II",
+    "Room No": "8",
+    "Batch": "Retake",
+    "Date": "02-07-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 532",
+    "Course Title": "Introduction to Robotics",
+    "Room No": "7",
+    "Batch": "Retake",
+    "Date": "02-07-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 113",
+    "Course Title": "Introduction to Software Engineering",
+    "Room No": "720",
+    "Batch": "45",
+    "Date": "02-07-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 123",
+    "Course Title": "Discrete Mathematics",
+    "Room No": "820",
+    "Batch": "43",
+    "Date": "02-07-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "CS 334",
+    "Course Title": "Ethical Hacking & Countermeasures",
+    "Room No": "52",
+    "Batch": "37",
+    "Date": "02-07-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": null,
+    "Course ID": null,
+    "Course Title": "Overlap Exam",
+    "Room No": null,
+    "Batch": null,
+    "Date": "03-07-2025",
+    "Slot": "A & B",
+    "Time": "09:00 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "MAT 101",
+    "Course Title": "Mathematics-4",
+    "Room No": "620",
+    "Batch": "44",
+    "Date": "03-07-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 342",
+    "Course Title": "Compiler design (non-major only)",
+    "Room No": "155",
+    "Batch": "37",
+    "Date": "03-07-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "STA 135/STA 101",
+    "Course Title": "Probability & Statistics in Software Engineering/ Statistics I",
+    "Room No": "520",
+    "Batch": "42",
+    "Date": "03-07-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 447",
+    "Course Title": "Human Computer Interaction (non-major only)",
+    "Room No": "52",
+    "Batch": "38",
+    "Date": "05-07-2025",
+    "Slot": "A",
+    "Time": "09:00 AM - 10:30 AM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 111",
+    "Course Title": "Computer Fundamentals",
+    "Room No": "714",
+    "Batch": "45",
+    "Date": "05-07-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 321",
+    "Course Title": "Software Engineering Web Application",
+    "Room No": "470",
+    "Batch": "40",
+    "Date": "05-07-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SWE 333",
+    "Course Title": "Desktop & Web Programming with Lab",
+    "Room No": "2",
+    "Batch": "Self Study",
+    "Date": "05-07-2025",
+    "Slot": "B",
+    "Time": "11:30 AM - 1:00 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 121",
+    "Course Title": "Structured Programming",
+    "Room No": "670",
+    "Batch": "44",
+    "Date": "05-07-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "GE 115/AOL 101",
+    "Course Title": "Art of Living",
+    "Room No": "520",
+    "Batch": "42",
+    "Date": "05-07-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  },
+  {
+    "Department": "SWE",
+    "Course ID": "SE 411",
+    "Course Title": "Software Project Management & Documentation",
+    "Room No": "310",
+    "Batch": "37, 36",
+    "Date": "05-07-2025",
+    "Slot": "C",
+    "Time": "02:00 PM - 03:30 PM"
+  }
+]
