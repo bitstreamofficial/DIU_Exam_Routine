@@ -54,7 +54,7 @@
         <div class="controls">
             <div class="filter-section">
                 <label for="batchFilter">Filter by Batch:</label>
-                <select id="batchFilter">gi
+                <select id="batchFilter">
                     <option value="">All Batches</option>
                 </select>
             </div>
@@ -76,8 +76,40 @@
             </div>
         </div>
 
+        <!-- Priority Exam Sections -->
+        <div id="todayExams" class="priority-section today-exams" style="display: none;">
+            <div class="priority-header">
+                <h2>📅 Today's Exams</h2>
+                <p class="priority-subtitle">Exams scheduled for today</p>
+            </div>
+            <div id="todayExamsContainer" class="priority-container">
+                <!-- Today's exams will be populated here -->
+            </div>
+        </div>
+
+        <div id="nextExams" class="priority-section next-exams" style="display: none;">
+            <div class="priority-header">
+                <h2>📋 Next Upcoming Exams</h2>
+                <p class="priority-subtitle">Closest upcoming exams</p>
+            </div>
+            <div id="nextExamsContainer" class="priority-container">
+                <!-- Next exams will be populated here -->
+            </div>
+        </div>
+
         <div id="routineContainer" class="routine-container">
             <!-- Exam routine will be populated here -->
+        </div>
+
+        <!-- Past Exams Section -->
+        <div id="pastExams" class="priority-section past-exams" style="display: none;">
+            <div class="priority-header">
+                <h2>📋 Exam's Already Over</h2>
+                <p class="priority-subtitle">Completed exams for reference</p>
+            </div>
+            <div id="pastExamsContainer" class="priority-container">
+                <!-- Past exams will be populated here -->
+            </div>
         </div>
 
         <div id="noResults" class="no-results" style="display: none;">

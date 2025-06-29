@@ -140,6 +140,128 @@ select:focus, input[type="text"]:focus {
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
+/* Priority Exam Sections */
+.priority-section {
+    margin: 30px 0;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.priority-section:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+}
+
+.today-exams {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    border: 2px solid #28a745;
+}
+
+.next-exams {
+    background: linear-gradient(135deg, #007bff 0%, #6610f2 100%);
+    border: 2px solid #007bff;
+}
+
+.past-exams {
+    background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+    border: 2px solid #6c757d;
+    margin-top: 40px;
+}
+
+.priority-header {
+    padding: 20px 30px;
+    color: white;
+    text-align: center;
+}
+
+.priority-header h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.priority-subtitle {
+    font-size: 1rem;
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+.priority-container {
+    background: white;
+    padding: 20px;
+}
+
+.priority-container .exams-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.priority-container .exam-card {
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.today-exams .priority-container .exam-card {
+    background: linear-gradient(135deg, #f8fff9 0%, #e8f5e8 100%);
+    border: 1px solid #c3e6cb;
+}
+
+.today-exams .priority-container .exam-card::before {
+    background: #28a745 !important;
+}
+
+.next-exams .priority-container .exam-card {
+    background: linear-gradient(135deg, #f8fbff 0%, #e3f2fd 100%);
+    border: 1px solid #b8daff;
+}
+
+.next-exams .priority-container .exam-card::before {
+    background: #007bff !important;
+}
+
+.past-exams .priority-container .exam-card {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    opacity: 0.8;
+    position: relative;
+    border: 1px solid #dee2e6;
+}
+
+.past-exams .priority-container .exam-card::before {
+    background: #6c757d !important;
+}
+
+.past-exams .priority-container .exam-card::before {
+    background: #6c757d !important;
+}
+
+.past-exams .priority-container .exam-card::after {
+    content: "COMPLETED";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #6c757d;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.past-exams .priority-container .exam-card:hover {
+    opacity: 0.9;
+}
+
+.priority-container .exam-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
 .routine-container {
     display: flex;
     flex-direction: column;

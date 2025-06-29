@@ -345,24 +345,129 @@ function filterData() {
 function displayExamRoutine(data) {
     const container = document.getElementById('routineContainer');
     const noResults = document.getElementById('noResults');
+    const todayExams = document.getElementById('todayExams');
+    const nextExams = document.getElementById('nextExams');
+    const pastExams = document.getElementById('pastExams');
+    const todayContainer = document.getElementById('todayExamsContainer');
+    const nextContainer = document.getElementById('nextExamsContainer');
+    const pastContainer = document.getElementById('pastExamsContainer');
     
     if (data.length === 0) {
         container.style.display = 'none';
+        todayExams.style.display = 'none';
+        nextExams.style.display = 'none';
+        pastExams.style.display = 'none';
         noResults.style.display = 'block';
         return;
     }
     
-    container.style.display = 'block';
     noResults.style.display = 'none';
     
-    // Group exams by date
-    const examsByDate = groupExamsByDate(data);
+    // Get current date
+    const today = new Date();
+    const todayStr = formatDateForComparison(today);
     
-    // Sort dates
-    const sortedDates = Object.keys(examsByDate).sort((a, b) => new Date(parseDate(a)) - new Date(parseDate(b)));
+    // Separate exams into categories
+    const { todayExamsData, nextExamsData, pastExamsData, futureExamsData } = categorizeExams(data, todayStr);
     
-    // Generate HTML
-    container.innerHTML = sortedDates.map(date => createDateGroupHTML(date, examsByDate[date])).join('');
+    // Display today's exams
+    if (todayExamsData.length > 0) {
+        todayExams.style.display = 'block';
+        const todayGrouped = groupExamsBySession(todayExamsData);
+        todayContainer.innerHTML = `<div class="exams-grid">${
+            Object.entries(todayGrouped).map(([sessionKey, sessionData]) => 
+                createSessionHTML(sessionKey, sessionData)
+            ).join('')
+        }</div>`;
+    } else {
+        todayExams.style.display = 'none';
+    }
+    
+    // Display next upcoming exams
+    if (nextExamsData.length > 0) {
+        nextExams.style.display = 'block';
+        const nextGrouped = groupExamsBySession(nextExamsData);
+        nextContainer.innerHTML = `<div class="exams-grid">${
+            Object.entries(nextGrouped).map(([sessionKey, sessionData]) => 
+                createSessionHTML(sessionKey, sessionData)
+            ).join('')
+        }</div>`;
+    } else {
+        nextExams.style.display = 'none';
+    }
+    
+    // Display future exams (routine)
+    if (futureExamsData.length > 0) {
+        container.style.display = 'block';
+        const examsByDate = groupExamsByDate(futureExamsData);
+        const sortedDates = Object.keys(examsByDate).sort((a, b) => parseDate(a) - parseDate(b));
+        container.innerHTML = sortedDates.map(date => createDateGroupHTML(date, examsByDate[date])).join('');
+    } else {
+        container.style.display = 'none';
+    }
+    
+    // Display past exams
+    if (pastExamsData.length > 0) {
+        pastExams.style.display = 'block';
+        const pastGrouped = groupExamsBySession(pastExamsData);
+        pastContainer.innerHTML = `<div class="exams-grid">${
+            Object.entries(pastGrouped).map(([sessionKey, sessionData]) => 
+                createSessionHTML(sessionKey, sessionData)
+            ).join('')
+        }</div>`;
+    } else {
+        pastExams.style.display = 'none';
+    }
+}
+
+// Categorize exams into today, next, past, and future
+function categorizeExams(data, todayStr) {
+    const config = departmentConfig[currentDepartment];
+    const dateField = config.fieldMapping.date;
+    const today = new Date();
+    const todayDateOnly = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+    
+    const todayExamsData = [];
+    const nextExamsData = [];
+    const pastExamsData = [];
+    const futureExamsData = [];
+    
+    // Find the next exam date after today
+    const futureDates = [...new Set(data.map(exam => exam[dateField]))]
+        .filter(date => {
+            const examDate = parseDate(date);
+            const examDateOnly = new Date(examDate.getFullYear(), examDate.getMonth(), examDate.getDate());
+            return examDateOnly > todayDateOnly;
+        })
+        .sort((a, b) => parseDate(a) - parseDate(b));
+    
+    const nextExamDate = futureDates[0];
+    
+    data.forEach(exam => {
+        const examDateStr = exam[dateField];
+        const examDate = parseDate(examDateStr);
+        const examDateOnly = new Date(examDate.getFullYear(), examDate.getMonth(), examDate.getDate());
+        
+        if (examDateOnly.getTime() === todayDateOnly.getTime()) {
+            todayExamsData.push(exam);
+        } else if (examDateStr === nextExamDate && nextExamDate) {
+            nextExamsData.push(exam);
+        } else if (examDateOnly < todayDateOnly) {
+            pastExamsData.push(exam);
+        } else {
+            futureExamsData.push(exam);
+        }
+    });
+    
+    return { todayExamsData, nextExamsData, pastExamsData, futureExamsData };
+}
+
+// Format date for comparison (DD-MM-YYYY)
+function formatDateForComparison(date) {
+    const day = String(date.getDate()).padStart(2, '0');
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const year = date.getFullYear();
+    return `${day}-${month}-${year}`;
 }
 
 // Group exams by date
