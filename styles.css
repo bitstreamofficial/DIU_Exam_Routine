@@ -361,6 +361,23 @@ select:focus, input[type="text"]:focus {
     white-space: nowrap;
 }
 
+.exam-date-badge {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(231, 76, 60, 0.3);
+}
+
+.exam-date-badge::before {
+    content: "📅 ";
+    font-size: 0.7rem;
+    margin-right: 3px;
+}
+
 .exam-time {
     background: linear-gradient(135deg, #4a90e2, #357abd);
     color: white;
@@ -837,6 +854,31 @@ footer a:hover {
     font-style: italic;
 }
 
+/* Date styling for priority exam cards */
+.exam-date {
+    font-weight: 600;
+    color: #007bff;
+    background: rgba(0, 123, 255, 0.1);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.today-exams .exam-date {
+    color: #28a745;
+    background: rgba(40, 167, 69, 0.1);
+}
+
+.next-exams .exam-date {
+    color: #007bff;
+    background: rgba(0, 123, 255, 0.1);
+}
+
+.past-exams .exam-date {
+    color: #6c757d;
+    background: rgba(108, 117, 125, 0.1);
+}
+
 /* Tablet Responsiveness */
 @media (max-width: 1024px) and (min-width: 769px) {
     .container {
@@ -1141,6 +1183,13 @@ footer a:hover {
         gap: 4px;
     }
     
+    .exam-date-badge {
+        order: -1; /* Show date first on mobile */
+        align-self: flex-start;
+        font-size: 0.75rem;
+        padding: 3px 6px;
+    }
+    
     /* Batch/Section tags */
     .batch-tag, .section-tag {
         font-size: 0.7rem;
@@ -1156,8 +1205,6 @@ footer a:hover {
     footer .subtitle {
         font-size: 0.8rem;
     }
-}
-    
     .course-id {
         font-size: 0.85rem;
     }

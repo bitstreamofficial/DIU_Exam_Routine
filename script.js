@@ -592,6 +592,7 @@ function createSessionHTML(sessionKey, sessionData) {
     const courseId = course[mapping.courseId];
     const department = course[mapping.department];
     const time = course[mapping.time];
+    const examDate = course[mapping.date];
     
     // Build details section dynamically
     let detailsHTML = `
@@ -707,6 +708,7 @@ function createSessionHTML(sessionKey, sessionData) {
             <div class="course-header">
                 <div class="course-title-row">
                     <div class="course-title">${courseTitle}</div>
+                    <div class="exam-date-badge">${formatDate(examDate)}</div>
                     <div class="course-id">${courseId}</div>
                 </div>
                 ${time ? `<div class="exam-time">${time}</div>` : ''}
