@@ -598,7 +598,7 @@ function createSessionHTML(sessionKey, sessionData) {
     let detailsHTML = `
         <div class="detail-item">
             <span class="detail-label">Department:</span>
-            <span class="detail-value">${department}</span>
+            <span class="detail-value department-tag ${department.toLowerCase()}">${department}</span>
         </div>
     `;
     
