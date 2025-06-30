@@ -1439,48 +1439,52 @@ footer a:hover {
 /* Small Mobile Devices (iPhone 8, similar sized phones) */
 @media (max-width: 480px) {
     .container {
-        padding: 8px;
+        padding: 6px;
     }
     
     header {
-        padding: 15px 10px;
-        margin-bottom: 15px;
-        border-radius: 10px;
+        padding: 12px 8px;
+        margin-bottom: 12px;
+        border-radius: 6px;
     }
     
     .header-text h1 {
-        font-size: 1.4rem;
-        margin-bottom: 3px;
+        font-size: 1.2rem;
+        margin-bottom: 2px;
         line-height: 1.2;
     }
     
     .subtitle {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         line-height: 1.3;
     }
     
     .logo {
-        height: 40px;
+        height: 35px;
     }
       /* Department Tabs */
     .department-tab {
-        padding: 10px 12px;
-        font-size: 0.85rem;
-        border-radius: 8px;
-        min-height: 42px;
+        padding: 8px 10px;
+        font-size: 0.8rem;
+        border-radius: 6px;
+        min-height: 40px;
         background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
-        border: 2px solid #e9ecef;
+        border: 1px solid #e9ecef;
     }
     
     .department-tab::after {
-        height: 2px;
+        height: 1px;
+    }
+
+    .tab-icon {
+        font-size: 1rem;
     }
 
     .tab-text {
-        font-size: 0.8rem;
-        letter-spacing: 0.5px;
-        padding: 2px 6px;
-        border-radius: 6px;
+        font-size: 0.75rem;
+        letter-spacing: 0.4px;
+        padding: 2px 5px;
+        border-radius: 5px;
     }
     
     .department-tab:hover .tab-text {
@@ -1581,10 +1585,21 @@ footer a:hover {
     }
     
     .exam-card {
-        padding: 12px;
-        margin-bottom: 8px;
-        border-radius: 8px;
+        padding: 8px;
+        margin-bottom: 4px;
+        border-radius: 6px;
         min-height: auto;
+    }
+    
+    .course-header {
+        margin-bottom: 8px;
+        gap: 4px;
+    }
+    
+    .course-title-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
     }
     
     .course-title {
@@ -1592,6 +1607,51 @@ footer a:hover {
         line-height: 1.2;
         margin-bottom: 4px;
         font-weight: 700;
+    }
+    
+    .course-id {
+        font-size: 0.75rem;
+        order: 2;
+    }
+    
+    .exam-date-badge {
+        font-size: 0.75rem;
+        padding: 2px 5px;
+        order: -1;
+        align-self: flex-start;
+        margin-bottom: 3px;
+    }
+    
+    .exam-time {
+        font-size: 0.8rem;
+        padding: 4px 8px;
+        margin: 6px 0;
+        border-radius: 6px;
+        align-self: stretch;
+        text-align: center;
+    }
+    
+    .exam-details {
+        grid-template-columns: 1fr;
+        gap: 6px;
+        margin-top: 6px;
+    }
+    
+    .detail-item {
+        padding: 2px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .detail-label {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    
+    .detail-value {
+        font-size: 0.8rem;
+        text-align: right;
     }
     
     .date-header {
@@ -1641,6 +1701,257 @@ footer a:hover {
     }
 }
 
+/* iPhone 12 Pro and similar mid-size mobile devices (390px) */
+@media (max-width: 390px) and (min-width: 376px) {
+    .container {
+        padding: 8px;
+    }
+    
+    header {
+        padding: 14px 10px;
+        margin-bottom: 14px;
+        border-radius: 8px;
+    }
+    
+    .header-text h1 {
+        font-size: 1.3rem;
+        margin-bottom: 3px;
+        line-height: 1.2;
+    }
+    
+    .subtitle {
+        font-size: 0.8rem;
+        line-height: 1.3;
+    }
+    
+    .logo {
+        height: 38px;
+    }
+    
+    /* Department Tabs optimized for 390px width */
+    .department-tab {
+        padding: 9px 11px;
+        font-size: 0.82rem;
+        border-radius: 7px;
+        min-height: 41px;
+        background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+        border: 1.5px solid #e9ecef;
+    }
+    
+    .tab-icon {
+        font-size: 1.05rem;
+    }
+
+    .tab-text {
+        font-size: 0.78rem;
+        letter-spacing: 0.45px;
+        padding: 2px 6px;
+        border-radius: 6px;
+    }
+    
+    /* Controls section for iPhone 12 Pro */
+    .controls {
+        gap: 9px;
+        margin-bottom: 14px;
+        padding: 16px;
+    }
+    
+    .filter-section, .search-section {
+        margin-bottom: 11px;
+    }
+    
+    .filter-section label, .search-section label {
+        font-size: 0.82rem;
+        margin-bottom: 5px;
+        font-weight: 600;
+        color: #555;
+        display: block;
+    }
+    
+    select, input[type="text"] {
+        width: 100%;
+        padding: 9px 11px;
+        font-size: 0.82rem;
+        border-radius: 6px;
+        min-height: 41px;
+        border: 2px solid #e1e5e9;
+        background: #fafbfc;
+        transition: all 0.3s ease;
+        appearance: none;
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-position: right 9px center;
+        background-size: 13px;
+        padding-right: 32px;
+    }
+    
+    select option {
+        padding: 7px;
+        background: white;
+        color: #333;
+        font-size: 0.82rem;
+    }
+    
+    /* Notice Banner for iPhone 12 Pro */
+    .notice-banner {
+        padding: 9px 13px;
+        margin-bottom: 13px;
+        border-radius: 7px;
+    }
+    
+    .notice-text {
+        font-size: 0.78rem;
+        line-height: 1.3;
+    }
+    
+    /* Exam Display optimized for 390px */
+    .exams-grid {
+        grid-template-columns: 1fr;
+        gap: 9px;
+        padding: 8px;
+    }
+    
+    .exam-card {
+        padding: 10px;
+        margin-bottom: 6px;
+        border-radius: 7px;
+        min-height: auto;
+    }
+    
+    .course-header {
+        margin-bottom: 9px;
+        gap: 5px;
+    }
+    
+    .course-title {
+        font-size: 0.88rem;
+        line-height: 1.2;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+    
+    .course-id {
+        font-size: 0.78rem;
+        order: 2;
+    }
+    
+    .exam-date-badge {
+        font-size: 0.78rem;
+        padding: 3px 6px;
+        order: -1;
+        align-self: flex-start;
+        margin-bottom: 4px;
+        border-radius: 6px;
+    }
+    
+    .exam-time {
+        font-size: 0.82rem;
+        padding: 5px 9px;
+        margin: 7px 0;
+        border-radius: 7px;
+        align-self: stretch;
+        text-align: center;
+    }
+    
+    .exam-details {
+        grid-template-columns: 1fr;
+        gap: 7px;
+        margin-top: 7px;
+    }
+    
+    .detail-item {
+        padding: 3px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .detail-label {
+        font-size: 0.82rem;
+        font-weight: 600;
+    }
+    
+    .detail-value {
+        font-size: 0.82rem;
+        text-align: right;
+    }
+    
+    .date-header {
+        font-size: 1.05rem;
+        padding: 11px 13px;
+        border-radius: 8px;
+    }
+    
+    /* Priority Sections for iPhone 12 Pro */
+    .priority-header h2 {
+        font-size: 1.25rem;
+        margin-bottom: 6px;
+    }
+    
+    .priority-subtitle {
+        font-size: 0.82rem;
+    }
+    
+    .priority-container {
+        padding: 14px;
+    }
+    
+    .priority-container .exams-grid {
+        grid-template-columns: 1fr;
+        gap: 7px;
+        padding: 7px;
+    }
+    
+    /* Room info for iPhone 12 Pro */
+    .room-info {
+        padding: 9px 11px;
+        margin-top: 9px;
+        border-radius: 7px;
+    }
+    
+    .room-details {
+        padding: 4px 8px;
+        margin: 2px 4px 2px 0;
+        border-radius: 5px;
+        font-size: 0.82rem;
+    }
+    
+    /* Badge icons for iPhone 12 Pro */
+    .exam-date-badge::before {
+        content: "📅";
+        font-size: 0.55rem;
+        margin-right: 2px;
+    }
+    
+    .exam-time::before {
+        content: "🕐";
+        font-size: 0.55rem;
+        margin-right: 2px;
+    }
+    
+    /* Tags and badges optimized for 390px */
+    .batch-tag, .section-tag, .teacher-tag {
+        display: inline-block;
+        margin: 1px 3px;
+        white-space: nowrap;
+        font-size: 0.78rem;
+        padding: 2px 5px;
+        border-radius: 4px;
+    }
+    
+    /* Footer for iPhone 12 Pro */
+    footer {
+        margin-top: 25px;
+        padding: 18px 12px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+    footer .subtitle {
+        font-size: 0.82rem;
+    }
+}
+
 /* Extra Small Mobile Devices (iPhone SE, small Android phones) */
 @media (max-width: 375px) {
     .container {
@@ -1667,7 +1978,7 @@ footer a:hover {
     .logo {
         height: 35px;
     }
-      /* Department Tabs for very small screens */
+      /* Department Tabs */
     .department-tab {
         padding: 8px 10px;
         font-size: 0.8rem;
@@ -1704,13 +2015,13 @@ footer a:hover {
     
     /* Controls */
     .controls {
-        gap: 8px;
-        margin-bottom: 12px;
-        padding: 15px;
+        gap: 10px;
+        margin-bottom: 15px;
+        padding: 18px;
     }
     
     .filter-section, .search-section {
-        margin-bottom: 10px;
+        margin-bottom: 12px;
     }
     
     .filter-section label, .search-section label {
