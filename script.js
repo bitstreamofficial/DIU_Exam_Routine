@@ -65,34 +65,6 @@ const departmentConfig = {
             hasBatch: false,
             groupBySection: true
         }
-    },
-    nfe: {
-        file: 'media/nfe_summer_mid.json',
-        name: 'NFE Department',
-        fallback: null,
-        fieldMapping: {
-            courseId: 'Course Code',
-            courseTitle: 'Course Title',
-            department: 'Department',
-            section: 'Section',
-            teacher: 'Teacher Initial',
-            roomNo: null, // NFE doesn't have room numbers
-            seats: null, // NFE doesn't have seat information
-            total: 'Total Students',
-            date: 'Date',
-            time: 'Time',
-            slot: 'Slot'
-        },
-        displayConfig: {
-            hasSeats: false,
-            hasTeacher: true,
-            hasSection: true,
-            hasTotal: true,
-            hasSyllabus: false,
-            hasNotes: false,
-            hasBatch: false,
-            groupBySection: true
-        }
     }
 };
 
@@ -595,6 +567,8 @@ function groupExamsBySession(exams) {
     const config = departmentConfig[currentDepartment];
     const sessions = {};
     
+    console.log(`🔍 Grouping ${exams.length} exams for ${config.name}`);
+    
     exams.forEach(exam => {
         const courseId = exam[config.fieldMapping.courseId];
         
@@ -616,7 +590,9 @@ function groupExamsBySession(exams) {
                 course: exam,
                 rooms: []
             };
+            console.log(`✅ New session: ${sessionKey}`);
         } else {
+            console.log(`📋 Adding to existing session: ${sessionKey}`);
             // Update course info with the entry that has complete information (time, slot)
             const currentTime = sessions[sessionKey].course[config.fieldMapping.time];
             const examTime = exam[config.fieldMapping.time];
@@ -642,7 +618,17 @@ function groupExamsBySession(exams) {
             roomInfo.total = exam[config.fieldMapping.total];
         }
         
-        sessions[sessionKey].rooms.push(roomInfo);
+        // Check if this room already exists for this session to prevent duplicates
+        const existingRoom = sessions[sessionKey].rooms.find(room => 
+            room.roomNo === roomInfo.roomNo
+        );
+        
+        if (!existingRoom) {
+            sessions[sessionKey].rooms.push(roomInfo);
+            console.log(`🏠 Added room: ${roomInfo.roomNo} to ${sessionKey}`);
+        } else {
+            console.log(`⚠️ Duplicate room ${roomInfo.roomNo} for ${sessionKey} - skipping`);
+        }
     });
     
     return sessions;
