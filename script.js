@@ -65,6 +65,34 @@ const departmentConfig = {
             hasBatch: false,
             groupBySection: true
         }
+    },
+    nfe: {
+        file: 'media/nfe_summer_mid.json',
+        name: 'NFE Department',
+        fallback: null,
+        fieldMapping: {
+            courseId: 'Course Code',
+            courseTitle: 'Course Title',
+            department: 'Department',
+            section: 'Section',
+            teacher: 'Teacher Initial',
+            roomNo: null, // NFE doesn't have room numbers
+            seats: null, // NFE doesn't have seat information
+            total: 'Total Students',
+            date: 'Date',
+            time: 'Time',
+            slot: 'Slot'
+        },
+        displayConfig: {
+            hasSeats: false,
+            hasTeacher: true,
+            hasSection: true,
+            hasTotal: true,
+            hasSyllabus: false,
+            hasNotes: false,
+            hasBatch: false,
+            groupBySection: true
+        }
     }
 };
 
@@ -559,18 +587,20 @@ function groupExamsBySession(exams) {
             }
         }
         
-        // Add room information
-        const roomInfo = {
-            roomNo: exam[config.fieldMapping.roomNo]
-        };
+        // Add room information (only if room field exists)
+        const roomInfo = {};
+        
+        if (config.fieldMapping.roomNo) {
+            roomInfo.roomNo = exam[config.fieldMapping.roomNo];
+        }
         
         // Add seats if available
-        if (config.displayConfig.hasSeats && exam[config.fieldMapping.seats]) {
+        if (config.displayConfig.hasSeats && config.fieldMapping.seats && exam[config.fieldMapping.seats]) {
             roomInfo.seats = exam[config.fieldMapping.seats];
         }
         
         // Add total if available
-        if (config.displayConfig.hasTotal && exam[config.fieldMapping.total]) {
+        if (config.displayConfig.hasTotal && config.fieldMapping.total && exam[config.fieldMapping.total]) {
             roomInfo.total = exam[config.fieldMapping.total];
         }
         
@@ -642,8 +672,8 @@ function createSessionHTML(sessionKey, sessionData) {
     }
     
     // Add total students if available
-    if (display.hasTotal) {
-        const total = rooms.find(r => r.total)?.total || 'N/A';
+    if (display.hasTotal && rooms.length > 0) {
+        const total = rooms.find(r => r.total)?.total || course[mapping.total] || 'N/A';
         detailsHTML += `
             <div class="detail-item">
                 <span class="detail-label">Total Students:</span>
@@ -652,18 +682,21 @@ function createSessionHTML(sessionKey, sessionData) {
         `;
     }
     
-    // Build room info dynamically
-    let roomInfoHTML = rooms.map(room => {
-        let roomHTML = `<div class="room-details">
-            <span class="room-number">${room.roomNo}</span>`;
-        
-        if (display.hasSeats && room.seats) {
-            roomHTML += `<span class="seat-info">${room.seats}</span>`;
-        }
-        
-        roomHTML += `</div>`;
-        return roomHTML;
-    }).join('');
+    // Build room info dynamically (only if rooms have room numbers)
+    let roomInfoHTML = '';
+    if (rooms.length > 0 && rooms[0].roomNo) {
+        roomInfoHTML = rooms.map(room => {
+            let roomHTML = `<div class="room-details">
+                <span class="room-number">${room.roomNo}</span>`;
+            
+            if (display.hasSeats && room.seats) {
+                roomHTML += `<span class="seat-info">${room.seats}</span>`;
+            }
+            
+            roomHTML += `</div>`;
+            return roomHTML;
+        }).join('');
+    }
     
     // Build resources section if available
     let resourcesHTML = '';
@@ -718,9 +751,7 @@ function createSessionHTML(sessionKey, sessionData) {
                 ${detailsHTML}
             </div>
             
-            <div class="room-info">
-                ${roomInfoHTML}
-            </div>
+            ${roomInfoHTML ? `<div class="room-info">${roomInfoHTML}</div>` : ''}
             
             ${resourcesHTML}
         </div>
