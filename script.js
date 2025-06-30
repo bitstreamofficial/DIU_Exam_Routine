@@ -424,13 +424,41 @@ function displayExamRoutine(data) {
 function categorizeExams(data, todayStr) {
     const config = departmentConfig[currentDepartment];
     const dateField = config.fieldMapping.date;
+    const timeField = config.fieldMapping.time;
     const today = new Date();
+    const currentTime = new Date(); // Current date and time
     const todayDateOnly = new Date(today.getFullYear(), today.getMonth(), today.getDate());
     
     const todayExamsData = [];
     const nextExamsData = [];
     const pastExamsData = [];
     const futureExamsData = [];
+    
+    // Helper function to parse exam time and create a full datetime
+    function parseExamDateTime(dateStr, timeStr) {
+        const examDate = parseDate(dateStr);
+        if (!timeStr) return examDate;
+        
+        // Parse time string
+        const timeMatch = timeStr.match(/(\d{1,2}):(\d{2})\s*(AM|PM)\s*-\s*(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+        if (!timeMatch) return examDate;
+        
+        // Get end time (when exam finishes)
+        let endHour = parseInt(timeMatch[4]);
+        const endMinute = parseInt(timeMatch[5]);
+        const endPeriod = timeMatch[6].toUpperCase();
+        
+        // Convert to 24-hour format
+        if (endPeriod === 'PM' && endHour !== 12) {
+            endHour += 12;
+        } else if (endPeriod === 'AM' && endHour === 12) {
+            endHour = 0;
+        }
+        
+        // Create datetime for exam end time
+        const examEndDateTime = new Date(examDate.getFullYear(), examDate.getMonth(), examDate.getDate(), endHour, endMinute);
+        return examEndDateTime;
+    }
     
     // Find the next exam date after today
     const futureDates = [...new Set(data.map(exam => exam[dateField]))]
@@ -445,11 +473,21 @@ function categorizeExams(data, todayStr) {
     
     data.forEach(exam => {
         const examDateStr = exam[dateField];
+        const examTimeStr = exam[timeField];
         const examDate = parseDate(examDateStr);
         const examDateOnly = new Date(examDate.getFullYear(), examDate.getMonth(), examDate.getDate());
         
         if (examDateOnly.getTime() === todayDateOnly.getTime()) {
-            todayExamsData.push(exam);
+            // For today's exams, check if the exam end time has passed
+            const examEndDateTime = parseExamDateTime(examDateStr, examTimeStr);
+            
+            if (currentTime > examEndDateTime) {
+                // Exam has finished, move to past exams
+                pastExamsData.push(exam);
+            } else {
+                // Exam is still ongoing or upcoming today
+                todayExamsData.push(exam);
+            }
         } else if (examDateStr === nextExamDate && nextExamDate) {
             nextExamsData.push(exam);
         } else if (examDateOnly < todayDateOnly) {
