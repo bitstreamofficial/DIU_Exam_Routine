@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIU Exam Routine</title>
+    <link rel="icon" type="image/png" href="media/Bit_Stream_Logo.png">
+    <link rel="shortcut icon" type="image/png" href="media/Bit_Stream_Logo.png">
+    <link rel="apple-touch-icon" href="media/Bit_Stream_Logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="header-logo left-logo">
+                    <img src="media/diu_logo.png" alt="DIU Logo" class="logo diu-logo">
+                </div>
+                <div class="header-text">
+                    <h1>DIU Exam Routine</h1>
+                    <p class="subtitle">Daffodil International University - Exam Schedule</p>
+                </div>
+                <div class="header-logo right-logo">
+                    <a href="https://www.facebook.com/profile.php?id=61577769602308">
+                        <img src="media/BitStreamLogoTransparent.png" alt="BitStream Logo" class="logo bitstream-logo">
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <div class="notice-banner">
+            <div class="notice-content">
+                <div class="notice-icon">📧</div>
+                <div class="notice-text">
+                    <strong>Important Notice:</strong> Please check your university email for double confirmation of the
+                    exam schedule.
+                </div>
+            </div>
+        </div>
+
+        <!-- Department Selector -->
+        <div class="department-selector">
+            <div class="department-tabs">
+                <button class="department-tab active" data-department="cse">
+                    <span class="tab-icon">💻</span>
+                    <span class="tab-text">CSE Department</span>
+                </button>
+                <button class="department-tab" data-department="swe">
+                    <span class="tab-icon">🌐</span>
+                    <span class="tab-text">SWE Department</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="filter-section">
+                <label for="batchFilter">Filter by Batch:</label>
+                <select id="batchFilter">gi
+                    <option value="">All Batches</option>
+                </select>
+            </div>
+            <div class="filter-section">
+                <label for="sectionFilter">Filter by Section:</label>
+                <select id="sectionFilter">
+                    <option value="">All Sections</option>
+                </select>
+            </div>
+            <div class="filter-section">
+                <label for="dateFilter">Filter by Date:</label>
+                <select id="dateFilter">
+                    <option value="">All Dates</option>
+                </select>
+            </div>
+            <div class="search-section">
+                <label for="courseSearch">Search:</label>
+                <input type="text" id="courseSearch" placeholder="Search by course, ID, teacher, or batch...">
+            </div>
+        </div>
+
+        <div id="routineContainer" class="routine-container">
+            <!-- Exam routine will be populated here -->
+        </div>
+
+        <div id="noResults" class="no-results" style="display: none;">
+            <p>No exams found for the selected criteria.</p>
+        </div>
+
+        <footer>
+            <p class="subtitle">Developed by <a
+                    href="https://www.facebook.com/profile.php?id=61577769602308">BitStream</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

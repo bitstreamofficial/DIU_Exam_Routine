@@ -7,88 +7,434 @@
     <link rel="icon" type="image/png" href="media/Bit_Stream_Logo.png">
     <link rel="shortcut icon" type="image/png" href="media/Bit_Stream_Logo.png">
     <link rel="apple-touch-icon" href="media/Bit_Stream_Logo.png">
-    <link rel="stylesheet" href="styles.css">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+        
+            body {
+                font-family: 'Arial', sans-serif;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                position: relative;
+            }
+        
+            /* Animated background particles */
+            .particles {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                z-index: 1;
+            }
+        
+            .particle {
+                position: absolute;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 50%;
+                animation: float 6s ease-in-out infinite;
+            }
+        
+            .particle:nth-child(1) {
+                width: 20px;
+                height: 20px;
+                left: 10%;
+                animation-delay: 0s;
+            }
+        
+            .particle:nth-child(2) {
+                width: 30px;
+                height: 30px;
+                left: 20%;
+                animation-delay: 1s;
+            }
+        
+            .particle:nth-child(3) {
+                width: 25px;
+                height: 25px;
+                left: 30%;
+                animation-delay: 2s;
+            }
+        
+            .particle:nth-child(4) {
+                width: 15px;
+                height: 15px;
+                left: 40%;
+                animation-delay: 3s;
+            }
+        
+            .particle:nth-child(5) {
+                width: 35px;
+                height: 35px;
+                left: 50%;
+                animation-delay: 4s;
+            }
+        
+            .particle:nth-child(6) {
+                width: 20px;
+                height: 20px;
+                left: 60%;
+                animation-delay: 5s;
+            }
+        
+            .particle:nth-child(7) {
+                width: 28px;
+                height: 28px;
+                left: 70%;
+                animation-delay: 2.5s;
+            }
+        
+            .particle:nth-child(8) {
+                width: 22px;
+                height: 22px;
+                left: 80%;
+                animation-delay: 1.5s;
+            }
+        
+            .particle:nth-child(9) {
+                width: 18px;
+                height: 18px;
+                left: 90%;
+                animation-delay: 3.5s;
+            }
+        
+            @keyframes float {
+        
+                0%,
+                100% {
+                    transform: translateY(100vh) rotate(0deg);
+                    opacity: 0;
+                }
+        
+                10%,
+                90% {
+                    opacity: 1;
+                }
+        
+                50% {
+                    transform: translateY(-100px) rotate(180deg);
+                }
+            }
+        
+            /* Main container */
+            .maintenance-container {
+                background: rgba(255, 255, 255, 0.95);
+                backdrop-filter: blur(10px);
+                border-radius: 20px;
+                padding: 60px 40px;
+                text-align: center;
+                box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+                max-width: 600px;
+                width: 90%;
+                position: relative;
+                z-index: 2;
+                animation: slideIn 1s ease-out;
+            }
+        
+            @keyframes slideIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(50px);
+                }
+        
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        
+            /* Icon */
+            .maintenance-icon {
+                width: 100px;
+                height: 100px;
+                margin: 0 auto 30px;
+                background: linear-gradient(45deg, #f39c12, #e74c3c);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: pulse 2s infinite;
+                box-shadow: 0 10px 30px rgba(243, 156, 18, 0.3);
+            }
+        
+            @keyframes pulse {
+                0% {
+                    transform: scale(1);
+                }
+        
+                50% {
+                    transform: scale(1.05);
+                }
+        
+                100% {
+                    transform: scale(1);
+                }
+            }
+        
+            .maintenance-icon::before {
+                content: "🔧";
+                font-size: 40px;
+                animation: rotate 3s linear infinite;
+            }
+        
+            @keyframes rotate {
+                from {
+                    transform: rotate(0deg);
+                }
+        
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+        
+            /* Typography */
+            h1 {
+                color: #2c3e50;
+                font-size: 2.5em;
+                margin-bottom: 20px;
+                font-weight: 700;
+                background: linear-gradient(45deg, #667eea, #764ba2);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+        
+            p {
+                color: #7f8c8d;
+                font-size: 1.2em;
+                line-height: 1.6;
+                margin-bottom: 30px;
+            }
+        
+            .message {
+                color: #34495e;
+                font-size: 1.1em;
+                margin-bottom: 40px;
+                font-style: italic;
+            }
+        
+            /* Progress bar */
+            .progress-container {
+                background: #ecf0f1;
+                border-radius: 25px;
+                height: 12px;
+                margin: 30px 0;
+                overflow: hidden;
+            }
+        
+            .progress-bar {
+                background: linear-gradient(90deg, #667eea, #764ba2);
+                height: 100%;
+                border-radius: 25px;
+                animation: loading 3s ease-in-out infinite;
+                box-shadow: 0 2px 10px rgba(102, 126, 234, 0.3);
+            }
+        
+            @keyframes loading {
+                0% {
+                    width: 0%;
+                }
+        
+                50% {
+                    width: 70%;
+                }
+        
+                100% {
+                    width: 100%;
+                }
+            }
+        
+            /* Social links */
+            .social-links {
+                margin-top: 40px;
+            }
+        
+            .social-links a {
+                display: inline-block;
+                margin: 0 15px;
+                padding: 12px;
+                background: rgba(102, 126, 234, 0.1);
+                border-radius: 50%;
+                transition: all 0.3s ease;
+                text-decoration: none;
+                font-size: 1.2em;
+            }
+        
+            .social-links a:hover {
+                background: linear-gradient(45deg, #667eea, #764ba2);
+                transform: translateY(-3px);
+                box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            }
+        
+            /* Contact info */
+            .contact-info {
+                margin-top: 30px;
+                padding-top: 30px;
+                border-top: 1px solid #ecf0f1;
+            }
+        
+            .contact-info p {
+                color: #95a5a6;
+                font-size: 1em;
+                margin-bottom: 10px;
+            }
+        
+            .email {
+                color: #667eea;
+                text-decoration: none;
+                font-weight: 600;
+                transition: color 0.3s ease;
+            }
+        
+            .email:hover {
+                color: #764ba2;
+            }
+        
+            /* Responsive design */
+            @media (max-width: 768px) {
+                .maintenance-container {
+                    padding: 40px 30px;
+                    margin: 20px;
+                }
+        
+                h1 {
+                    font-size: 2em;
+                }
+        
+                p,
+                .message {
+                    font-size: 1em;
+                }
+        
+                .maintenance-icon {
+                    width: 80px;
+                    height: 80px;
+                }
+        
+                .maintenance-icon::before {
+                    font-size: 32px;
+                }
+            }
+        
+            @media (max-width: 480px) {
+                .maintenance-container {
+                    padding: 30px 20px;
+                }
+        
+                h1 {
+                    font-size: 1.8em;
+                }
+        
+                .social-links a {
+                    margin: 0 10px;
+                    padding: 10px;
+                }
+            }
+        </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="header-content">
-                <div class="header-logo left-logo">
-                    <img src="media/diu_logo.png" alt="DIU Logo" class="logo diu-logo">
-                </div>
-                <div class="header-text">
-                    <h1>DIU Exam Routine</h1>
-                    <p class="subtitle">Daffodil International University - Exam Schedule</p>
-                </div>
-                <div class="header-logo right-logo">
-                    <a href="https://www.facebook.com/profile.php?id=61577769602308">
-                    <img src="media/BitStreamLogoTransparent.png" alt="BitStream Logo" class="logo bitstream-logo">
-                    </a>
-                </div>
-            </div>
-        </header>
+    
 
-        <div class="notice-banner">
-            <div class="notice-content">
-                <div class="notice-icon">📧</div>
-                <div class="notice-text">
-                    <strong>Important Notice:</strong> Please check your university email for double confirmation of the exam schedule.
-                </div>
-            </div>
-        </div>
-
-        <!-- Department Selector -->
-        <div class="department-selector">
-            <div class="department-tabs">
-                <button class="department-tab active" data-department="cse">
-                    <span class="tab-icon">💻</span>
-                    <span class="tab-text">CSE Department</span>
-                </button>
-                <button class="department-tab" data-department="swe">
-                    <span class="tab-icon">🌐</span>
-                    <span class="tab-text">SWE Department</span>
-                </button>
-            </div>
-        </div>
-
-        <div class="controls">
-            <div class="filter-section">
-                <label for="batchFilter">Filter by Batch:</label>
-                <select id="batchFilter">gi
-                    <option value="">All Batches</option>
-                </select>
-            </div>
-            <div class="filter-section">
-                <label for="sectionFilter">Filter by Section:</label>
-                <select id="sectionFilter">
-                    <option value="">All Sections</option>
-                </select>
-            </div>
-            <div class="filter-section">
-                <label for="dateFilter">Filter by Date:</label>
-                <select id="dateFilter">
-                    <option value="">All Dates</option>
-                </select>
-            </div>
-            <div class="search-section">
-                <label for="courseSearch">Search:</label>
-                <input type="text" id="courseSearch" placeholder="Search by course, ID, teacher, or batch...">
-            </div>
-        </div>
-
-        <div id="routineContainer" class="routine-container">
-            <!-- Exam routine will be populated here -->
-        </div>
-
-        <div id="noResults" class="no-results" style="display: none;">
-            <p>No exams found for the selected criteria.</p>
+        <div class="particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
         </div>
         
-        <footer>
-            <p class="subtitle">Developed by <a href="https://www.facebook.com/profile.php?id=61577769602308">BitStream</a></p>
-        </footer>
+        <div class="maintenance-container">
+            <div class="maintenance-icon"></div>
+        
+            <h1>Under Maintenance</h1>
+        
+            <p>We're currently performing scheduled maintenance to improve your experience. Our team is working hard to get
+                everything back online.</p>
+        
+            <div class="message">
+                Expected completion time: 2-3 hours
+            </div>
+        
+            <div class="progress-container">
+                <div class="progress-bar"></div>
+            </div>
+        
+            <p style="font-size: 1em; color: #95a5a6;">Thank you for your patience while we make improvements!</p>
+        
+            <div class="social-links">
+                <a href="#" title="Twitter">🐦</a>
+                <a href="#" title="Facebook">📘</a>
+                <a href="#" title="Instagram">📷</a>
+                <a href="#" title="LinkedIn">💼</a>
+            </div>
+        
+            <div class="contact-info">
+                <p>Need immediate assistance?</p>
+                <p>Contact us: <a href="mailto:official.bitstream@gmail.com" class="email">official.bitstream@gmail.com</a></p>
+            </div>
+        </div>
+        
+        <script>
+            // Add some interactive elements
+            document.addEventListener('DOMContentLoaded', function () {
+                // Animate progress bar on load
+                const progressBar = document.querySelector('.progress-bar');
+                let width = 0;
+                const interval = setInterval(() => {
+                    if (width >= 85) {
+                        clearInterval(interval);
+                    } else {
+                        width += Math.random() * 2;
+                        progressBar.style.width = width + '%';
+                    }
+                }, 100);
+
+                // Add click effect to social links
+                const socialLinks = document.querySelectorAll('.social-links a');
+                socialLinks.forEach(link => {
+                    link.addEventListener('click', function (e) {
+                        e.preventDefault();
+                        this.style.transform = 'scale(0.95) translateY(-3px)';
+                        setTimeout(() => {
+                            this.style.transform = 'translateY(-3px)';
+                        }, 150);
+                    });
+                });
+
+                // Add parallax effect to particles
+                document.addEventListener('mousemove', function (e) {
+                    const particles = document.querySelectorAll('.particle');
+                    const mouseX = e.clientX;
+                    const mouseY = e.clientY;
+
+                    particles.forEach((particle, index) => {
+                        const speed = (index + 1) * 0.01;
+                        const x = (mouseX * speed);
+                        const y = (mouseY * speed);
+                        particle.style.transform = `translate(${x}px, ${y}px)`;
+                    });
+                });
+            });
+        </script>
+        
+        
     </div>
 
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
